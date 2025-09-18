@@ -1,0 +1,22 @@
+[
+  {
+    "case_index": 0,
+    "chosen_strategy": "temporal_masking",
+    "original_case": "A 12-year-old Syrian boy was transferred to our hospital with complaints of recurrent bilious vomiting, constipation, and crampy abdominal pain for 6 days. His physical examination showed abdominal distention and tenderness. The vital signs were stable, and there was mild dehydration. All laboratory results were normal. Plain X-rays revealed a dilated bowel with air\u2013fluid levels. An upper gastrointestinal contrast study showed dilated bowels in the upper part of the abdomen, including the stomach, duodenum, and jejunum . Intravenous fluids were administered, and nasogastric tubes were placed. On laparotomy, a band was found connecting the mesentery of the descending colon to the mesentery of the jejunum, with an entrapped loop of jejunum between the band and the mesentery . The appearance of the intestines was normal with normal blood supply. This band was ligated and excised without bowel resection . Histological examination revealed fibrotic tissue with blood vessels and no malignant changes.",
+    "rewritten_case": "A pre-teen boy of Syrian descent was brought to our medical facility presenting with recurring episodes of bilious vomiting, constipation, and episodes of abdominal pain. He was physically examined, during which his abdomen was found to be distended and tender to touch. The boy's vital signs remained within normal range, although he showed signs of slight dehydration. Comprehensive lab tests did not reveal any abnormalities. \n\nDiagnostic imaging, including plain X-rays, revealed a dilation in the bowel accompanied by air-fluid levels. Further investigation using an upper gastrointestinal contrast study showed a dilated bowel in the upper abdominal region, implicating the stomach, duodenum, and jejunum. \n\nThe boy was put on intravenous fluids to manage his dehydration, and a nasogastric tube was inserted. A surgical exploration of his abdomen was performed, during which a band was discovered linking the mesentery of the descending colon to the mesentery of the jejunum. This band had entrapped a loop of the jejunum between it and the mesentery.\n\nUpon visual inspection, the intestines appeared normal, along with the blood supply to them. The identified band was then ligated and surgically removed, without necessitating a bowel resection. A subsequent histological analysis of the excised band revealed fibrotic tissue with blood vessels present, but no signs of malignancy were detected.",
+    "realism_overlap": 0.3828125,
+    "realism_semantic": 0.9161983728408813,
+    "model_response": "DX: Intestinal obstruction due to Ladd's bands\n\nJustification: The patient's symptoms of bilious vomiting, constipation, and abdominal pain, along with the physical examination findings of abdominal distension and tenderness, suggest intestinal obstruction. The diagnostic imaging findings of bowel dilation and air-fluid levels further support this diagnosis. The surgical exploration revealed the presence of Ladd's bands, which are fibrous bands that can cause intestinal obstruction in newborns with malrotation of the midgut. The successful surgical intervention and the absence of malignancy in the histological analysis confirm the diagnosis of intestinal obstruction due to Ladd's bands.",
+    "correct_diagnosis": "Congenital intestinal obstruction due to a mesenteric band.",
+    "target_distractor": "Intestinal adhesions [bands], with partial obstruction",
+    "fooled": false,
+    "match_type": "unknown",
+    "predicted_dx_raw": "Intestinal obstruction due to Ladd's bands",
+    "predicted_dx_normalized": "intestinal obstruction due to ladd s bands",
+    "contains_true_anywhere": false,
+    "contains_distractor_anywhere": false,
+    "confidence": 0.0,
+    "adjudication_notes": "No reliable alias or fuzzy match; no clear mentions.",
+    "model_used": "jsl-medmnx-7b-djf"
+  }
+]

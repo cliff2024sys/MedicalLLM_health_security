@@ -1,0 +1,3685 @@
+{
+  "indices": [
+    46,
+    173,
+    210,
+    238,
+    279,
+    390,
+    401,
+    402,
+    454,
+    458,
+    524,
+    680,
+    904,
+    1117,
+    1395,
+    1674,
+    1678,
+    1708,
+    1773,
+    1798,
+    1811,
+    1816,
+    2173,
+    2195,
+    2211,
+    2275,
+    2277,
+    2333,
+    2338,
+    2377,
+    2395,
+    2569,
+    2637,
+    2644,
+    2691,
+    2778,
+    2795,
+    2911,
+    2925,
+    3038,
+    3058,
+    3064,
+    3082,
+    3097,
+    3217,
+    3326,
+    3340,
+    3354,
+    3458,
+    3464
+  ],
+  "results": [
+    {
+      "model": "GPT-4",
+      "case_idx": 3464,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Aplastic Anemia",
+      "final_confidence": 80,
+      "adjudication": {
+        "predicted_dx_raw": "Aplastic Anemia",
+        "predicted_dx_normalized": "aplastic anemia",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Myelodysplastic syndrome (MDS).",
+      "distractors": [
+        "Other myelodysplastic syndromes",
+        "Myelodysplastic syndrome, unspecified",
+        "Myelophthisis"
+      ],
+      "baseline_diagnosis": "Myelodysplastic Syndrome",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 3217,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Post-Partum Breast Ptosis",
+      "final_confidence": 85,
+      "adjudication": {
+        "predicted_dx_raw": "Post-Partum Breast Ptosis",
+        "predicted_dx_normalized": "post partum breast ptosis",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Breast augmentation with porcine-derived acellular dermal matrix.",
+      "distractors": [
+        "Induration of breast",
+        "Deformity and disproportion of reconstructed breast",
+        "Disproportion of reconstructed breast"
+      ],
+      "baseline_diagnosis": "Successful cosmetic breast augmentation",
+      "baseline_confidence": 100
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 2377,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Multiple Fractures",
+      "final_confidence": 100,
+      "adjudication": {
+        "predicted_dx_raw": "Multiple Fractures",
+        "predicted_dx_normalized": "multiple fractures",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Comminuted dislocated fracture of left proximal tibia, proximal fracture of right tibia, pilon fracture of right tibia, comminuted fracture of left calcaneus, fracture of left lateral malleolus, L-1 spinal fracture.",
+      "distractors": [
+        "Displaced comminuted fracture of shaft of left tibia, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with nonunion",
+        "Nondisplaced comminuted fracture of shaft of left tibia, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with delayed healing",
+        "Nondisplaced comminuted fracture of shaft of left tibia, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with malunion"
+      ],
+      "baseline_diagnosis": "Multiple fractures including bilateral tibial fractures, left fibula fracture, right pilon fracture, and left calcaneus fracture (Sanders type IV)",
+      "baseline_confidence": 100
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 2333,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Postoperative Infection",
+      "final_confidence": 80,
+      "adjudication": {
+        "predicted_dx_raw": "Postoperative Infection",
+        "predicted_dx_normalized": "postoperative infection",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Abscess of the left adductor muscle with associated necrotizing fasciitis.",
+      "distractors": [
+        "Unspecified injury of adductor muscle, fascia and tendon of left thigh",
+        "Unspecified injury of adductor muscle, fascia and tendon of left thigh, subsequent encounter",
+        "Unspecified injury of adductor muscle, fascia and tendon of left thigh, initial encounter"
+      ],
+      "baseline_diagnosis": "Necrotizing fasciitis secondary to Staphylococcus aureus and Citrobacter koseri infection",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 238,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Common Cold",
+      "final_confidence": 80,
+      "adjudication": {
+        "predicted_dx_raw": "Common Cold",
+        "predicted_dx_normalized": "common cold",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "SARS-CoV-2 pneumonia with Staphylococcus aureus bacteremia.",
+      "distractors": [
+        "Pneumonia due to staphylococcus aureus",
+        "Pneumonia due to Methicillin resistant Staphylococcus aureus",
+        "Pneumonia due to staphylococcus"
+      ],
+      "baseline_diagnosis": "Neonatal COVID-19 with Acute Respiratory Distress Syndrome (ARDS)",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 3340,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Benign Prostatic Hyperplasia (BPH)",
+      "final_confidence": 85,
+      "adjudication": {
+        "predicted_dx_raw": "Benign Prostatic Hyperplasia (BPH)",
+        "predicted_dx_normalized": "benign prostatic hyperplasia bph",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Chronic granulomatous prostatitis of fungal etiology (paracoccidioidomycosis).",
+      "distractors": [
+        "Paracoccidioidomycosis",
+        "Chronic prostatitis",
+        "Paracoccidioidomycosis, unspecified"
+      ],
+      "baseline_diagnosis": "Disseminated fungal infection, likely Paracoccidioidomycosis",
+      "baseline_confidence": 85
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 2778,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Stiff Person Syndrome",
+      "final_confidence": 75,
+      "adjudication": {
+        "predicted_dx_raw": "Stiff Person Syndrome",
+        "predicted_dx_normalized": "stiff person syndrome",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Myotonic dystrophy.",
+      "distractors": [
+        "Myotonic disorders",
+        "Myotonic chondrodystrophy",
+        "Other specified myotonic disorders"
+      ],
+      "baseline_diagnosis": "Myotonic Dystrophy",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 1773,
+      "final_match_type": "correct",
+      "fooled": false,
+      "final_diagnosis": "Histoplasmosis",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Histoplasmosis",
+        "predicted_dx_normalized": "histoplasmosis",
+        "contains_true_anywhere": true,
+        "contains_distractor_anywhere": false,
+        "notes": "Predicted diagnosis matches true diagnosis (alias/fuzzy).",
+        "match_type": "correct"
+      },
+      "true_diagnosis": "Histoplasmosis.",
+      "distractors": [
+        "Histoplasmosis, unspecified",
+        "Histoplasmosis duboisii",
+        "Histoplasmosis capsulati, unspecified"
+      ],
+      "baseline_diagnosis": "Disseminated Histoplasmosis",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 3458,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Acute Cholecystitis",
+      "final_confidence": 70,
+      "adjudication": {
+        "predicted_dx_raw": "Acute Cholecystitis",
+        "predicted_dx_normalized": "acute cholecystitis",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Accreta placentation.",
+      "distractors": [
+        "Placenta accreta, second trimester",
+        "Placenta accreta, first trimester",
+        "Placenta accreta, unspecified trimester"
+      ],
+      "baseline_diagnosis": "Abnormal Placental Adhesion (APA)",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 2637,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Gastrointestinal Bleeding",
+      "final_confidence": 60,
+      "adjudication": {
+        "predicted_dx_raw": "Gastrointestinal Bleeding",
+        "predicted_dx_normalized": "gastrointestinal bleeding",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Dieulafoy\u2019s-like lesion.",
+      "distractors": [
+        "Dieulafoy lesion (hemorrhagic) of stomach and duodenum",
+        "Biomechanical lesion, unspecified",
+        "Unspecified disorder of vitreous body"
+      ],
+      "baseline_diagnosis": "Dieulafoy's lesion",
+      "baseline_confidence": 85
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 2395,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Optic Neuritis",
+      "final_confidence": 80,
+      "adjudication": {
+        "predicted_dx_raw": "Optic Neuritis",
+        "predicted_dx_normalized": "optic neuritis",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Astrocytoma grade I.",
+      "distractors": [
+        "Solitary plasmacytoma",
+        "Follicular lymphoma grade IIIb",
+        "Follicular lymphoma grade I, intrathoracic lymph nodes"
+      ],
+      "baseline_diagnosis": "Optic Glioma and Multiple Cerebral Aneurysms",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 1816,
+      "final_match_type": "correct",
+      "fooled": false,
+      "final_diagnosis": "Hepatoblastoma",
+      "final_confidence": 85,
+      "adjudication": {
+        "predicted_dx_raw": "Hepatoblastoma",
+        "predicted_dx_normalized": "hepatoblastoma",
+        "contains_true_anywhere": true,
+        "contains_distractor_anywhere": false,
+        "notes": "Predicted diagnosis matches true diagnosis (alias/fuzzy).",
+        "match_type": "correct"
+      },
+      "true_diagnosis": "Hepatoblastoma.",
+      "distractors": [
+        "Malignant neoplasm of hepatic flexure",
+        "Hepatosplenic T-cell lymphoma",
+        "Hepatic fibrosis"
+      ],
+      "baseline_diagnosis": "Hepatoblastoma",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 2211,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Hodgkin's Lymphoma",
+      "final_confidence": 60,
+      "adjudication": {
+        "predicted_dx_raw": "Hodgkin's Lymphoma",
+        "predicted_dx_normalized": "hodgkin s lymphoma",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Atypical parathyroid adenoma.",
+      "distractors": [
+        "Disorder of parathyroid gland, unspecified",
+        "Hyperparathyroidism, unspecified",
+        "Malignant neoplasm of parathyroid gland"
+      ],
+      "baseline_diagnosis": "Giant Parathyroid Adenoma",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 2925,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Transverse Myelitis",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Transverse Myelitis",
+        "predicted_dx_normalized": "transverse myelitis",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Cavernous angioma.",
+      "distractors": [
+        "Benign lipomatous neoplasm",
+        "Benign lipomatous neoplasm, unspecified",
+        "Benign neoplasm of brain, infratentorial"
+      ],
+      "baseline_diagnosis": "Intramedullary Spinal Cord Tumor",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 2338,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Obesity Hypoventilation Syndrome (OHS) with comorbid Ischemic Cardiomyopathy and Atrial Fibrillation",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Obesity Hypoventilation Syndrome (OHS) with comorbid Ischemic Cardiomyopathy and Atrial Fibrillation",
+        "predicted_dx_normalized": "obesity hypoventilation syndrome ohs with comorbid ischemic cardiomyopathy and atrial fibrillation",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Ovarian cancer with associated complications.",
+      "distractors": [
+        "Injury of ovary",
+        "Contusion of ovary",
+        "Ovarian dysfunction"
+      ],
+      "baseline_diagnosis": "Ovarian Cancer with associated Paraneoplastic Thrombocytosis and Chronic Hepatitis B infection",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 2795,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Congenital Epulis",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Congenital Epulis",
+        "predicted_dx_normalized": "congenital epulis",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Congenital granular cell epulis.",
+      "distractors": [
+        "Pyogenic granuloma",
+        "Granuloma annulare",
+        "Granuloma inguinale"
+      ],
+      "baseline_diagnosis": "Congenital Granular Cell Epulis",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 2911,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Inguinal Hernia",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Inguinal Hernia",
+        "predicted_dx_normalized": "inguinal hernia",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Schwannoma.",
+      "distractors": [
+        "Scotoma involving central area",
+        "Linear scleroderma",
+        "Scotoma involving central area, bilateral"
+      ],
+      "baseline_diagnosis": "Neurogenic Tumor",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 210,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Early Pregnancy",
+      "final_confidence": 85,
+      "adjudication": {
+        "predicted_dx_raw": "Early Pregnancy",
+        "predicted_dx_normalized": "early pregnancy",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Cerebral vein thrombosis (CVT) associated with COVID-19 infection.",
+      "distractors": [
+        "Cerebral venous thrombosis in the puerperium",
+        "Cerebral venous thrombosis in pregnancy",
+        "Portal vein thrombosis"
+      ],
+      "baseline_diagnosis": "Cerebral Venous Sinus Thrombosis (CVST) and COVID-19",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 3058,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Traumatic Penile Amputation",
+      "final_confidence": 100,
+      "adjudication": {
+        "predicted_dx_raw": "Traumatic Penile Amputation",
+        "predicted_dx_normalized": "traumatic penile amputation",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Incomplete amputation of the penis.",
+      "distractors": [
+        "Partial traumatic amputation of penis",
+        "Traumatic amputation of penis",
+        "Complete traumatic amputation of penis, subsequent encounter"
+      ],
+      "baseline_diagnosis": "Traumatic penile amputation",
+      "baseline_confidence": 100
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 3354,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Proliferative Diabetic Retinopathy",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Proliferative Diabetic Retinopathy",
+        "predicted_dx_normalized": "proliferative diabetic retinopathy",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Neovascular glaucoma.",
+      "distractors": [
+        "Cataract with neovascularization",
+        "Retinal neovascularization, unspecified",
+        "Corneal neovascularization"
+      ],
+      "baseline_diagnosis": "Neovascular Glaucoma",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 680,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Primary Amenorrhea",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Primary Amenorrhea",
+        "predicted_dx_normalized": "primary amenorrhea",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Complete Androgen Insensitivity Syndrome (CAIS).",
+      "distractors": [
+        "Androgen insensitivity syndrome",
+        "Partial androgen insensitivity syndrome",
+        "Androgen insensitivity syndrome, unspecified"
+      ],
+      "baseline_diagnosis": "Complete Androgen Insensitivity Syndrome",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 1798,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Sigmoid Volvulus",
+      "final_confidence": 85,
+      "adjudication": {
+        "predicted_dx_raw": "Sigmoid Volvulus",
+        "predicted_dx_normalized": "sigmoid volvulus",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Meckel\u2019s diverticulum.",
+      "distractors": [
+        "Meckel's diverticulum (displaced) (hypertrophic)",
+        "Diverticulum of appendix",
+        "Urethral diverticulum"
+      ],
+      "baseline_diagnosis": "Internal Hernia with Intestinal Necrosis and Malrotation",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 524,
+      "final_match_type": "ambiguous",
+      "fooled": false,
+      "final_diagnosis": "Fetal Growth Restriction (FGR) with Oligohydramnios",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Fetal Growth Restriction (FGR) with Oligohydramnios",
+        "predicted_dx_normalized": "fetal growth restriction fgr with oligohydramnios",
+        "contains_true_anywhere": true,
+        "contains_distractor_anywhere": false,
+        "notes": "True dx mentioned somewhere but top-line label differs.",
+        "match_type": "ambiguous"
+      },
+      "true_diagnosis": "Severe preeclampsia and fetal growth restriction (FGR).",
+      "distractors": [
+        "Severe pre-eclampsia, second trimester",
+        "Severe pre-eclampsia, third trimester",
+        "Severe pre-eclampsia, unspecified trimester"
+      ],
+      "baseline_diagnosis": "Fetal Growth Restriction (FGR) with umbilical cord complications",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 390,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Familial Mediterranean Fever",
+      "final_confidence": 75,
+      "adjudication": {
+        "predicted_dx_raw": "Familial Mediterranean Fever",
+        "predicted_dx_normalized": "familial mediterranean fever",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Juvenile idiopathic arthritis.",
+      "distractors": [
+        "Other juvenile arthritis",
+        "Juvenile arthritis, unspecified",
+        "Juvenile arthritis, unspecified, elbow"
+      ],
+      "baseline_diagnosis": "Juvenile Idiopathic Arthritis",
+      "baseline_confidence": 75
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 402,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Insufficient Information",
+      "final_confidence": null,
+      "adjudication": {
+        "predicted_dx_raw": "Insufficient Information",
+        "predicted_dx_normalized": "insufficient information",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "COVID-19 reinfection.",
+      "distractors": [
+        "Smallpox",
+        "Pneumonia due to SARS-associated coronavirus",
+        "Encounter for sterilization"
+      ],
+      "baseline_diagnosis": "COVID-19 Reinfection",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 2691,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Major Depressive Disorder",
+      "final_confidence": 80,
+      "adjudication": {
+        "predicted_dx_raw": "Major Depressive Disorder",
+        "predicted_dx_normalized": "major depressive disorder",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Bipolar II disorder, currently in a mixed state.",
+      "distractors": [
+        "Bipolar disorder, current episode mixed",
+        "Bipolar disorder, current episode mixed, moderate",
+        "Bipolar disorder, current episode mixed, unspecified"
+      ],
+      "baseline_diagnosis": "Treatment-resistant Major Depressive Disorder with comorbid Attention Deficit Hyperactivity Disorder",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 454,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Suicidal Attempt via Drug Overdose",
+      "final_confidence": 98,
+      "adjudication": {
+        "predicted_dx_raw": "Suicidal Attempt via Drug Overdose",
+        "predicted_dx_normalized": "suicidal attempt via drug overdose",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Toxic cardiomyopathy due to venlafaxine overdose.",
+      "distractors": [
+        "Poisoning by cardiac-stimulant glycosides and drugs of similar action, intentional self-harm, subsequent encounter",
+        "Poisoning by cardiac-stimulant glycosides and drugs of similar action, intentional self-harm",
+        "Poisoning by cardiac-stimulant glycosides and drugs of similar action, accidental (unintentional), subsequent encounter"
+      ],
+      "baseline_diagnosis": "Acute Drug Overdose",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 2195,
+      "final_match_type": "correct_core",
+      "fooled": false,
+      "final_diagnosis": "Encephalitis",
+      "final_confidence": 80,
+      "adjudication": {
+        "predicted_dx_raw": "Encephalitis",
+        "predicted_dx_normalized": "encephalitis",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "Core token Jaccard=1.00.",
+        "match_type": "correct_core"
+      },
+      "true_diagnosis": "Anti-NMDAR encephalitis.",
+      "distractors": [
+        "Arthropod-borne viral encephalitis, unspecified",
+        "Mumps encephalitis",
+        "California encephalitis"
+      ],
+      "baseline_diagnosis": "Anti-NMDA Receptor Encephalitis",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 3082,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Neonatal Hypotonia",
+      "final_confidence": 85,
+      "adjudication": {
+        "predicted_dx_raw": "Neonatal Hypotonia",
+        "predicted_dx_normalized": "neonatal hypotonia",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Narcolepsy with cataplexy.",
+      "distractors": [
+        "Narcolepsy and cataplexy",
+        "Narcolepsy without cataplexy",
+        "Narcolepsy in conditions classified elsewhere with cataplexy"
+      ],
+      "baseline_diagnosis": "Prader-Willi Syndrome with Narcolepsy",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 2644,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Subarachnoid Hemorrhage",
+      "final_confidence": 100,
+      "adjudication": {
+        "predicted_dx_raw": "Subarachnoid Hemorrhage",
+        "predicted_dx_normalized": "subarachnoid hemorrhage",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Dissecting aneurysm of the A1 segment of the right anterior cerebral artery.",
+      "distractors": [
+        "Aortic aneurysm and dissection",
+        "Dissection of unspecified artery",
+        "Anterior cerebral artery syndrome"
+      ],
+      "baseline_diagnosis": "Ruptured cerebral aneurysm",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 1117,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Prolactinoma",
+      "final_confidence": 80,
+      "adjudication": {
+        "predicted_dx_raw": "Prolactinoma",
+        "predicted_dx_normalized": "prolactinoma",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Chronic granulomatous hypophysitis.",
+      "distractors": [
+        "Granulomatous disorder of the skin and subcutaneous tissue, unspecified",
+        "Chronic petrositis",
+        "Granulomatous disorders of skin and subcutaneous tissue"
+      ],
+      "baseline_diagnosis": "Idiopathic Granulomatous Hypophysitis (IGH)",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 3097,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Migraine with aura",
+      "final_confidence": 70,
+      "adjudication": {
+        "predicted_dx_raw": "Migraine with aura",
+        "predicted_dx_normalized": "migraine with aura",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Left parieto-occipital infarct with haemorrhagic transformation.",
+      "distractors": [
+        "Cerebral infarction due to embolism of left carotid artery",
+        "Cerebral infarction due to thrombosis of left carotid artery",
+        "Episodic paroxysmal hemicrania, intractable"
+      ],
+      "baseline_diagnosis": "Miller Fisher Syndrome followed by Cerebrovascular Accident (Stroke)",
+      "baseline_confidence": 85
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 2275,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Postoperative epilepsy",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Postoperative epilepsy",
+        "predicted_dx_normalized": "postoperative epilepsy",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Bilateral diffuse pigmentary retinopathy.",
+      "distractors": [
+        "Secondary pigmentary degeneration, bilateral",
+        "Solar retinopathy, bilateral",
+        "Conjunctival pigmentations, bilateral"
+      ],
+      "baseline_diagnosis": "Topiramate-induced bilateral diffuse pigmentary retinopathy",
+      "baseline_confidence": 85
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 173,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Traumatic Brain Injury with Left Hemiplegia and Spasticity",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Traumatic Brain Injury with Left Hemiplegia and Spasticity",
+        "predicted_dx_normalized": "traumatic brain injury with left hemiplegia and spasticity",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Left hemiplegia due to severe traumatic brain injury (TBI).",
+      "distractors": [
+        "Hemiplegia, unspecified affecting left dominant side",
+        "Hemiplegia, unspecified affecting left nondominant side",
+        "Hemiplegic migraine"
+      ],
+      "baseline_diagnosis": "Post-Traumatic Spastic Hemiplegia",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 3038,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Exacerbation of Chronic Obstructive Pulmonary Disease",
+      "final_confidence": 70,
+      "adjudication": {
+        "predicted_dx_raw": "Exacerbation of Chronic Obstructive Pulmonary Disease",
+        "predicted_dx_normalized": "exacerbation of chronic obstructive pulmonary disease",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Obstructive Sleep Apnea (OSA).",
+      "distractors": [
+        "Obstructive sleep apnea (adult) (pediatric)",
+        "Sleep apnea, unspecified",
+        "Other sleep apnea"
+      ],
+      "baseline_diagnosis": "Sleep Apnea",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 458,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Insufficient Data",
+      "final_confidence": 0,
+      "adjudication": {
+        "predicted_dx_raw": "Insufficient Data",
+        "predicted_dx_normalized": "insufficient data",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Primary Hyperparathyroidism (PHPT).",
+      "distractors": [
+        "Hyperparathyroidism, unspecified",
+        "Other hyperparathyroidism",
+        "Secondary hyperparathyroidism, not elsewhere classified"
+      ],
+      "baseline_diagnosis": "Familial Hypocalciuric Hypercalcemia (FHH) Type 1",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 1708,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Acute Ischemic Stroke",
+      "final_confidence": 70,
+      "adjudication": {
+        "predicted_dx_raw": "Acute Ischemic Stroke",
+        "predicted_dx_normalized": "acute ischemic stroke",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "DVT and PE due to urinary retention.",
+      "distractors": [
+        "Other retention of urine",
+        "Drug induced retention of urine",
+        "Retention of urine, unspecified"
+      ],
+      "baseline_diagnosis": "Pulmonary Embolism and Deep Vein Thrombosis",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 46,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Cardiac Arrest",
+      "final_confidence": 100,
+      "adjudication": {
+        "predicted_dx_raw": "Cardiac Arrest",
+        "predicted_dx_normalized": "cardiac arrest",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Lightning strike injury.",
+      "distractors": [
+        "Shock due to being struck by lightning, initial encounter",
+        "Effects of lightning",
+        "Shock due to being struck by lightning, subsequent encounter"
+      ],
+      "baseline_diagnosis": "Lightning Strike Induced Cardiac Arrest and Multi-Organ Failure",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 1674,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Chronic Malaria",
+      "final_confidence": 70,
+      "adjudication": {
+        "predicted_dx_raw": "Chronic Malaria",
+        "predicted_dx_normalized": "chronic malaria",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Apert syndrome.",
+      "distractors": [
+        "Dressler's syndrome",
+        "Barth syndrome",
+        "Horner's syndrome"
+      ],
+      "baseline_diagnosis": "Apert Syndrome",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 2277,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Atypical Coronary Artery Anomaly",
+      "final_confidence": 30,
+      "adjudication": {
+        "predicted_dx_raw": "Atypical Coronary Artery Anomaly",
+        "predicted_dx_normalized": "atypical coronary artery anomaly",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Accessory coronary artery.",
+      "distractors": [
+        "Accessory auricle",
+        "ST elevation (STEMI) myocardial infarction involving other coronary artery of inferior wall",
+        "Accessory ovary"
+      ],
+      "baseline_diagnosis": "Anomalous Coronary Artery",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 2173,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Abdominal Tumor",
+      "final_confidence": 70,
+      "adjudication": {
+        "predicted_dx_raw": "Abdominal Tumor",
+        "predicted_dx_normalized": "abdominal tumor",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "syndromic form of paucity of bile ducts (Alagille syndrome).",
+      "distractors": [
+        "Inspissated bile syndrome",
+        "Congenital adrenogenital disorders associated with enzyme deficiency",
+        "Other congenital malformations of bile ducts"
+      ],
+      "baseline_diagnosis": "Alagille Syndrome",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 401,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Insufficient Data",
+      "final_confidence": 0,
+      "adjudication": {
+        "predicted_dx_raw": "Insufficient Data",
+        "predicted_dx_normalized": "insufficient data",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Severe acute pancreatitis (AP).",
+      "distractors": [
+        "Acute pancreatitis, unspecified",
+        "Acute prostatitis",
+        "Other acute pancreatitis"
+      ],
+      "baseline_diagnosis": "Acute Pancreatitis and COVID-19",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 1678,
+      "final_match_type": "correct",
+      "fooled": false,
+      "final_diagnosis": "Dental Caries",
+      "final_confidence": 80,
+      "adjudication": {
+        "predicted_dx_raw": "Dental Caries",
+        "predicted_dx_normalized": "dental caries",
+        "contains_true_anywhere": true,
+        "contains_distractor_anywhere": false,
+        "notes": "Predicted diagnosis matches true diagnosis (alias/fuzzy).",
+        "match_type": "correct"
+      },
+      "true_diagnosis": "Dental caries.",
+      "distractors": [
+        "Dental caries, unspecified",
+        "Dental root caries",
+        "Arrested dental caries"
+      ],
+      "baseline_diagnosis": "Dental Caries",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 2569,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Chronic Right Inguinal Seroma",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Chronic Right Inguinal Seroma",
+        "predicted_dx_normalized": "chronic right inguinal seroma",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Strangulated femoral hernia with incarceration of omentum and presence of a tubal clip.",
+      "distractors": [
+        "Unilateral femoral hernia, with obstruction, without gangrene",
+        "Unilateral femoral hernia, with obstruction, without gangrene, recurrent",
+        "Bilateral femoral hernia, with obstruction, without gangrene"
+      ],
+      "baseline_diagnosis": "Femoral Hernia",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 1811,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Snakebite Envenomation",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Snakebite Envenomation",
+        "predicted_dx_normalized": "snakebite envenomation",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Neurotoxic envenomation due to Ceylon krait (Bungarus ceylonicus) bite.",
+      "distractors": [
+        "Open bite, right thigh, subsequent encounter",
+        "Open bite, left thigh, subsequent encounter",
+        "Bitten by nonvenomous snake, subsequent encounter"
+      ],
+      "baseline_diagnosis": "Snakebite-induced Neuromuscular Junction Dysfunction",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 3326,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Acute Cholecystitis",
+      "final_confidence": 70,
+      "adjudication": {
+        "predicted_dx_raw": "Acute Cholecystitis",
+        "predicted_dx_normalized": "acute cholecystitis",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Benign teratoma.",
+      "distractors": [
+        "Benign neoplasm of liver",
+        "Benign neoplasm of unspecified testis",
+        "Benign neoplasm of right testis"
+      ],
+      "baseline_diagnosis": "Ovarian Teratoma",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 279,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Transient Ischemic Attack (TIA)",
+      "final_confidence": 75,
+      "adjudication": {
+        "predicted_dx_raw": "Transient Ischemic Attack (TIA)",
+        "predicted_dx_normalized": "transient ischemic attack tia",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Severe stenosis of left internal carotid artery.",
+      "distractors": [
+        "Major laceration of left carotid artery",
+        "Occlusion and stenosis of carotid artery",
+        "Occlusion and stenosis of unspecified carotid artery"
+      ],
+      "baseline_diagnosis": "Hypotension due to carotid sinus syndrome",
+      "baseline_confidence": 85
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 904,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Cervical Radiculopathy",
+      "final_confidence": 85,
+      "adjudication": {
+        "predicted_dx_raw": "Cervical Radiculopathy",
+        "predicted_dx_normalized": "cervical radiculopathy",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Vertebral artery loop formation (VALF).",
+      "distractors": [
+        "Vertebro-basilar artery syndrome",
+        "Major laceration of right vertebral artery",
+        "Minor laceration of vertebral artery"
+      ],
+      "baseline_diagnosis": "Vertebral Artery Anomaly",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 3064,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Primary Dysmenorrhea",
+      "final_confidence": 85,
+      "adjudication": {
+        "predicted_dx_raw": "Primary Dysmenorrhea",
+        "predicted_dx_normalized": "primary dysmenorrhea",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Right unicornuate uterus with non-communicating rudimentary horn.",
+      "distractors": [
+        "Arcuate uterus",
+        "Bicornate uterus",
+        "Absent nipple"
+      ],
+      "baseline_diagnosis": "Unicornuate Uterus",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "GPT-4",
+      "case_idx": 1395,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Chronic Heart Failure",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Chronic Heart Failure",
+        "predicted_dx_normalized": "chronic heart failure",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Stress-induced cardiomyopathy.",
+      "distractors": [
+        "Cardiomyopathy, unspecified",
+        "Viral cardiomyopathy",
+        "Dilated cardiomyopathy"
+      ],
+      "baseline_diagnosis": "Takotsubo Cardiomyopathy",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 3464,
+      "final_match_type": "correct",
+      "fooled": false,
+      "final_diagnosis": "Myelodysplastic Syndrome (MDS)",
+      "final_confidence": 85,
+      "adjudication": {
+        "predicted_dx_raw": "Myelodysplastic Syndrome (MDS)",
+        "predicted_dx_normalized": "myelodysplastic syndrome mds",
+        "contains_true_anywhere": true,
+        "contains_distractor_anywhere": false,
+        "notes": "Predicted diagnosis matches true diagnosis (alias/fuzzy).",
+        "match_type": "correct"
+      },
+      "true_diagnosis": "Myelodysplastic syndrome (MDS).",
+      "distractors": [
+        "Other myelodysplastic syndromes",
+        "Myelodysplastic syndrome, unspecified",
+        "Myelophthisis"
+      ],
+      "baseline_diagnosis": "Acute Myeloid Leukemia (AML) with relapse",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 3217,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Breast Augmentation",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Breast Augmentation",
+        "predicted_dx_normalized": "breast augmentation",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Breast augmentation with porcine-derived acellular dermal matrix.",
+      "distractors": [
+        "Induration of breast",
+        "Deformity and disproportion of reconstructed breast",
+        "Disproportion of reconstructed breast"
+      ],
+      "baseline_diagnosis": "Capsular contracture",
+      "baseline_confidence": 80
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 2377,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Traumatic brain injury with polytrauma",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Traumatic brain injury with polytrauma",
+        "predicted_dx_normalized": "traumatic brain injury with polytrauma",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Comminuted dislocated fracture of left proximal tibia, proximal fracture of right tibia, pilon fracture of right tibia, comminuted fracture of left calcaneus, fracture of left lateral malleolus, L-1 spinal fracture.",
+      "distractors": [
+        "Displaced comminuted fracture of shaft of left tibia, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with nonunion",
+        "Nondisplaced comminuted fracture of shaft of left tibia, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with delayed healing",
+        "Nondisplaced comminuted fracture of shaft of left tibia, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with malunion"
+      ],
+      "baseline_diagnosis": "Post-traumatic calcaneal fracture with subtalar arthrodesis",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 2333,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Pulmonary Embolism (PE)",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Pulmonary Embolism (PE)",
+        "predicted_dx_normalized": "pulmonary embolism pe",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Abscess of the left adductor muscle with associated necrotizing fasciitis.",
+      "distractors": [
+        "Unspecified injury of adductor muscle, fascia and tendon of left thigh",
+        "Unspecified injury of adductor muscle, fascia and tendon of left thigh, subsequent encounter",
+        "Unspecified injury of adductor muscle, fascia and tendon of left thigh, initial encounter"
+      ],
+      "baseline_diagnosis": "Methicillin-sensitive Staphylococcus aureus (MSSA) abscess and necrotizing fasciitis",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 238,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Influenza",
+      "final_confidence": 80,
+      "adjudication": {
+        "predicted_dx_raw": "Influenza",
+        "predicted_dx_normalized": "influenza",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "SARS-CoV-2 pneumonia with Staphylococcus aureus bacteremia.",
+      "distractors": [
+        "Pneumonia due to staphylococcus aureus",
+        "Pneumonia due to Methicillin resistant Staphylococcus aureus",
+        "Pneumonia due to staphylococcus"
+      ],
+      "baseline_diagnosis": "Neonatal Respiratory Distress Syndrome (NRDS) with COVID-19 pneumonia",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 3340,
+      "final_match_type": "fooled_distractor",
+      "fooled": true,
+      "final_diagnosis": "Chronic Prostatitis",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Chronic Prostatitis",
+        "predicted_dx_normalized": "chronic prostatitis",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": true,
+        "notes": "Predicted diagnosis matches a listed distractor (alias/fuzzy).",
+        "match_type": "fooled_distractor"
+      },
+      "true_diagnosis": "Chronic granulomatous prostatitis of fungal etiology (paracoccidioidomycosis).",
+      "distractors": [
+        "Paracoccidioidomycosis",
+        "Chronic prostatitis",
+        "Paracoccidioidomycosis, unspecified"
+      ],
+      "baseline_diagnosis": "Chronic granulomatous prostatitis with fungal infection (Paracoccidioidomycosis)",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 2778,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Hereditary Neuropathy with Liability to Pressure Palsies",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Hereditary Neuropathy with Liability to Pressure Palsies",
+        "predicted_dx_normalized": "hereditary neuropathy with liability to pressure palsies",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Myotonic dystrophy.",
+      "distractors": [
+        "Myotonic disorders",
+        "Myotonic chondrodystrophy",
+        "Other specified myotonic disorders"
+      ],
+      "baseline_diagnosis": "Limb-Girdle Muscular Dystrophy",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 1773,
+      "final_match_type": "correct",
+      "fooled": false,
+      "final_diagnosis": "Histoplasmosis",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Histoplasmosis",
+        "predicted_dx_normalized": "histoplasmosis",
+        "contains_true_anywhere": true,
+        "contains_distractor_anywhere": false,
+        "notes": "Predicted diagnosis matches true diagnosis (alias/fuzzy).",
+        "match_type": "correct"
+      },
+      "true_diagnosis": "Histoplasmosis.",
+      "distractors": [
+        "Histoplasmosis, unspecified",
+        "Histoplasmosis duboisii",
+        "Histoplasmosis capsulati, unspecified"
+      ],
+      "baseline_diagnosis": "Histoplasmosis",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 3458,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Prolonged Pregnancy",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Prolonged Pregnancy",
+        "predicted_dx_normalized": "prolonged pregnancy",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Accreta placentation.",
+      "distractors": [
+        "Placenta accreta, second trimester",
+        "Placenta accreta, first trimester",
+        "Placenta accreta, unspecified trimester"
+      ],
+      "baseline_diagnosis": "Abruptio Placentae",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 2637,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Upper GI bleeding due to esophageal varices",
+      "final_confidence": 60,
+      "adjudication": {
+        "predicted_dx_raw": "Upper GI bleeding due to esophageal varices",
+        "predicted_dx_normalized": "upper gi bleeding due to esophageal varices",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Dieulafoy\u2019s-like lesion.",
+      "distractors": [
+        "Dieulafoy lesion (hemorrhagic) of stomach and duodenum",
+        "Biomechanical lesion, unspecified",
+        "Unspecified disorder of vitreous body"
+      ],
+      "baseline_diagnosis": "Duodenal varices",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 2395,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Optic Neuritis",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Optic Neuritis",
+        "predicted_dx_normalized": "optic neuritis",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Astrocytoma grade I.",
+      "distractors": [
+        "Solitary plasmacytoma",
+        "Follicular lymphoma grade IIIb",
+        "Follicular lymphoma grade I, intrathoracic lymph nodes"
+      ],
+      "baseline_diagnosis": "Optic nerve glioma with associated aneurysms",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 1816,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Hepatocellular carcinoma",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Hepatocellular carcinoma",
+        "predicted_dx_normalized": "hepatocellular carcinoma",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Hepatoblastoma.",
+      "distractors": [
+        "Malignant neoplasm of hepatic flexure",
+        "Hepatosplenic T-cell lymphoma",
+        "Hepatic fibrosis"
+      ],
+      "baseline_diagnosis": "Hepatoblastoma",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 2211,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Thyroid nodule",
+      "final_confidence": 85,
+      "adjudication": {
+        "predicted_dx_raw": "Thyroid nodule",
+        "predicted_dx_normalized": "thyroid nodule",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Atypical parathyroid adenoma.",
+      "distractors": [
+        "Disorder of parathyroid gland, unspecified",
+        "Hyperparathyroidism, unspecified",
+        "Malignant neoplasm of parathyroid gland"
+      ],
+      "baseline_diagnosis": "Giant parathyroid adenoma",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 2925,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Acute Transverse Myelitis",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Acute Transverse Myelitis",
+        "predicted_dx_normalized": "acute transverse myelitis",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Cavernous angioma.",
+      "distractors": [
+        "Benign lipomatous neoplasm",
+        "Benign lipomatous neoplasm, unspecified",
+        "Benign neoplasm of brain, infratentorial"
+      ],
+      "baseline_diagnosis": "Ependymoma",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 2338,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Ischemic Cardiomyopathy",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Ischemic Cardiomyopathy",
+        "predicted_dx_normalized": "ischemic cardiomyopathy",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Ovarian cancer with associated complications.",
+      "distractors": [
+        "Injury of ovary",
+        "Contusion of ovary",
+        "Ovarian dysfunction"
+      ],
+      "baseline_diagnosis": "Malignant ovarian neoplasm with peritoneal carcinomatosis",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 2795,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Congenital Epulis",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Congenital Epulis",
+        "predicted_dx_normalized": "congenital epulis",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Congenital granular cell epulis.",
+      "distractors": [
+        "Pyogenic granuloma",
+        "Granuloma annulare",
+        "Granuloma inguinale"
+      ],
+      "baseline_diagnosis": "Congenital Granular Cell Epithelioma",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 2911,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Inguinal Hernia",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Inguinal Hernia",
+        "predicted_dx_normalized": "inguinal hernia",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Schwannoma.",
+      "distractors": [
+        "Scotoma involving central area",
+        "Linear scleroderma",
+        "Scotoma involving central area, bilateral"
+      ],
+      "baseline_diagnosis": "Gastrointestinal stromal tumor (GIST)",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 210,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Preeclampsia",
+      "final_confidence": 60,
+      "adjudication": {
+        "predicted_dx_raw": "Preeclampsia",
+        "predicted_dx_normalized": "preeclampsia",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Cerebral vein thrombosis (CVT) associated with COVID-19 infection.",
+      "distractors": [
+        "Cerebral venous thrombosis in the puerperium",
+        "Cerebral venous thrombosis in pregnancy",
+        "Portal vein thrombosis"
+      ],
+      "baseline_diagnosis": "Cerebral venous sinus thrombosis (CVST) with parenchymal hematoma",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 3058,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Genital mutilation",
+      "final_confidence": 80,
+      "adjudication": {
+        "predicted_dx_raw": "Genital mutilation",
+        "predicted_dx_normalized": "genital mutilation",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Incomplete amputation of the penis.",
+      "distractors": [
+        "Partial traumatic amputation of penis",
+        "Traumatic amputation of penis",
+        "Complete traumatic amputation of penis, subsequent encounter"
+      ],
+      "baseline_diagnosis": "Penile amputation with reimplantation",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 3354,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Diabetic Retinopathy-related Ocular Complication",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Diabetic Retinopathy-related Ocular Complication",
+        "predicted_dx_normalized": "diabetic retinopathy related ocular complication",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Neovascular glaucoma.",
+      "distractors": [
+        "Cataract with neovascularization",
+        "Retinal neovascularization, unspecified",
+        "Corneal neovascularization"
+      ],
+      "baseline_diagnosis": "Steroid-induced glaucoma with tube-related complications",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 680,
+      "final_match_type": "correct_core",
+      "fooled": false,
+      "final_diagnosis": "46,XX testicular feminization syndrome",
+      "final_confidence": 99,
+      "adjudication": {
+        "predicted_dx_raw": "46,XX testicular feminization syndrome",
+        "predicted_dx_normalized": "46 xx testicular feminization syndrome",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "Core token Jaccard=1.00.",
+        "match_type": "correct_core"
+      },
+      "true_diagnosis": "Complete Androgen Insensitivity Syndrome (CAIS).",
+      "distractors": [
+        "Androgen insensitivity syndrome",
+        "Partial androgen insensitivity syndrome",
+        "Androgen insensitivity syndrome, unspecified"
+      ],
+      "baseline_diagnosis": "Androgen Insensitivity Syndrome (AIS)",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 1798,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Intestinal obstruction",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Intestinal obstruction",
+        "predicted_dx_normalized": "intestinal obstruction",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Meckel\u2019s diverticulum.",
+      "distractors": [
+        "Meckel's diverticulum (displaced) (hypertrophic)",
+        "Diverticulum of appendix",
+        "Urethral diverticulum"
+      ],
+      "baseline_diagnosis": "Small intestine obstruction due to malrotation and herniation through the hepatogastric ligament hiatus",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 524,
+      "final_match_type": "ambiguous",
+      "fooled": false,
+      "final_diagnosis": "Fetal growth restriction (FGR) with oligohydramnios",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Fetal growth restriction (FGR) with oligohydramnios",
+        "predicted_dx_normalized": "fetal growth restriction fgr with oligohydramnios",
+        "contains_true_anywhere": true,
+        "contains_distractor_anywhere": false,
+        "notes": "True dx mentioned somewhere but top-line label differs.",
+        "match_type": "ambiguous"
+      },
+      "true_diagnosis": "Severe preeclampsia and fetal growth restriction (FGR).",
+      "distractors": [
+        "Severe pre-eclampsia, second trimester",
+        "Severe pre-eclampsia, third trimester",
+        "Severe pre-eclampsia, unspecified trimester"
+      ],
+      "baseline_diagnosis": "Fetal growth restriction with umbilical cord compression",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 390,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Familial Mediterranean Fever",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Familial Mediterranean Fever",
+        "predicted_dx_normalized": "familial mediterranean fever",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Juvenile idiopathic arthritis.",
+      "distractors": [
+        "Other juvenile arthritis",
+        "Juvenile arthritis, unspecified",
+        "Juvenile arthritis, unspecified, elbow"
+      ],
+      "baseline_diagnosis": "Juvenile Idiopathic Arthritis (JIA)",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 402,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Acute Adjustment Disorder",
+      "final_confidence": 60,
+      "adjudication": {
+        "predicted_dx_raw": "Acute Adjustment Disorder",
+        "predicted_dx_normalized": "acute adjustment disorder",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "COVID-19 reinfection.",
+      "distractors": [
+        "Smallpox",
+        "Pneumonia due to SARS-associated coronavirus",
+        "Encounter for sterilization"
+      ],
+      "baseline_diagnosis": "COVID-19 reinfection",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 2691,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Major Depressive Disorder",
+      "final_confidence": 80,
+      "adjudication": {
+        "predicted_dx_raw": "Major Depressive Disorder",
+        "predicted_dx_normalized": "major depressive disorder",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Bipolar II disorder, currently in a mixed state.",
+      "distractors": [
+        "Bipolar disorder, current episode mixed",
+        "Bipolar disorder, current episode mixed, moderate",
+        "Bipolar disorder, current episode mixed, unspecified"
+      ],
+      "baseline_diagnosis": "Major Depressive Disorder with Bipolar Features",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 454,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Serotonin Syndrome",
+      "final_confidence": 98,
+      "adjudication": {
+        "predicted_dx_raw": "Serotonin Syndrome",
+        "predicted_dx_normalized": "serotonin syndrome",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Toxic cardiomyopathy due to venlafaxine overdose.",
+      "distractors": [
+        "Poisoning by cardiac-stimulant glycosides and drugs of similar action, intentional self-harm, subsequent encounter",
+        "Poisoning by cardiac-stimulant glycosides and drugs of similar action, intentional self-harm",
+        "Poisoning by cardiac-stimulant glycosides and drugs of similar action, accidental (unintentional), subsequent encounter"
+      ],
+      "baseline_diagnosis": "Serotonin Syndrome",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 2195,
+      "final_match_type": "correct_core",
+      "fooled": false,
+      "final_diagnosis": "Limbic Encephalitis",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Limbic Encephalitis",
+        "predicted_dx_normalized": "limbic encephalitis",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "Core token Jaccard=1.00.",
+        "match_type": "correct_core"
+      },
+      "true_diagnosis": "Anti-NMDAR encephalitis.",
+      "distractors": [
+        "Arthropod-borne viral encephalitis, unspecified",
+        "Mumps encephalitis",
+        "California encephalitis"
+      ],
+      "baseline_diagnosis": "Anti-N-methyl-D-aspartate receptor (NMDAR) encephalitis",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 3082,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Hypotonic Infant Disorder",
+      "final_confidence": 80,
+      "adjudication": {
+        "predicted_dx_raw": "Hypotonic Infant Disorder",
+        "predicted_dx_normalized": "hypotonic infant disorder",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Narcolepsy with cataplexy.",
+      "distractors": [
+        "Narcolepsy and cataplexy",
+        "Narcolepsy without cataplexy",
+        "Narcolepsy in conditions classified elsewhere with cataplexy"
+      ],
+      "baseline_diagnosis": "Narcolepsy with Cataplexy",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 2644,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Subarachnoid Hemorrhage",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Subarachnoid Hemorrhage",
+        "predicted_dx_normalized": "subarachnoid hemorrhage",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Dissecting aneurysm of the A1 segment of the right anterior cerebral artery.",
+      "distractors": [
+        "Aortic aneurysm and dissection",
+        "Dissection of unspecified artery",
+        "Anterior cerebral artery syndrome"
+      ],
+      "baseline_diagnosis": "Ruptured right anterior cerebral artery aneurysm",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 1117,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Hyperprolactinemia",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Hyperprolactinemia",
+        "predicted_dx_normalized": "hyperprolactinemia",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Chronic granulomatous hypophysitis.",
+      "distractors": [
+        "Granulomatous disorder of the skin and subcutaneous tissue, unspecified",
+        "Chronic petrositis",
+        "Granulomatous disorders of skin and subcutaneous tissue"
+      ],
+      "baseline_diagnosis": "Pituitary macroadenoma",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 3097,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Thiamine deficiency",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Thiamine deficiency",
+        "predicted_dx_normalized": "thiamine deficiency",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Left parieto-occipital infarct with haemorrhagic transformation.",
+      "distractors": [
+        "Cerebral infarction due to embolism of left carotid artery",
+        "Cerebral infarction due to thrombosis of left carotid artery",
+        "Episodic paroxysmal hemicrania, intractable"
+      ],
+      "baseline_diagnosis": "Guillain-Barr\u00e9 Syndrome",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 2275,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Topiramate-induced metabolic acidosis",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Topiramate-induced metabolic acidosis",
+        "predicted_dx_normalized": "topiramate induced metabolic acidosis",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Bilateral diffuse pigmentary retinopathy.",
+      "distractors": [
+        "Secondary pigmentary degeneration, bilateral",
+        "Solar retinopathy, bilateral",
+        "Conjunctival pigmentations, bilateral"
+      ],
+      "baseline_diagnosis": "Topiramate-induced bilateral diffuse pigmentary retinopathy",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 173,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Spastic Hemiparesis",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Spastic Hemiparesis",
+        "predicted_dx_normalized": "spastic hemiparesis",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Left hemiplegia due to severe traumatic brain injury (TBI).",
+      "distractors": [
+        "Hemiplegia, unspecified affecting left dominant side",
+        "Hemiplegia, unspecified affecting left nondominant side",
+        "Hemiplegic migraine"
+      ],
+      "baseline_diagnosis": "Spasticity due to Traumatic Brain Injury",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 3038,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Chronic Obstructive Pulmonary Disease (COPD) exacerbation",
+      "final_confidence": 70,
+      "adjudication": {
+        "predicted_dx_raw": "Chronic Obstructive Pulmonary Disease (COPD) exacerbation",
+        "predicted_dx_normalized": "chronic obstructive pulmonary disease copd exacerbation",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Obstructive Sleep Apnea (OSA).",
+      "distractors": [
+        "Obstructive sleep apnea (adult) (pediatric)",
+        "Sleep apnea, unspecified",
+        "Other sleep apnea"
+      ],
+      "baseline_diagnosis": "Obstructive Sleep Apnea (OSA)",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 458,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Hashimoto's Thyroiditis",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Hashimoto's Thyroiditis",
+        "predicted_dx_normalized": "hashimoto s thyroiditis",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Primary Hyperparathyroidism (PHPT).",
+      "distractors": [
+        "Hyperparathyroidism, unspecified",
+        "Other hyperparathyroidism",
+        "Secondary hyperparathyroidism, not elsewhere classified"
+      ],
+      "baseline_diagnosis": "Familial Hypocalciuric Hypercalcemia (FHH)",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 1708,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Guillain-Barr\u00e9 Syndrome",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Guillain-Barr\u00e9 Syndrome",
+        "predicted_dx_normalized": "guillain barre syndrome",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "DVT and PE due to urinary retention.",
+      "distractors": [
+        "Other retention of urine",
+        "Drug induced retention of urine",
+        "Retention of urine, unspecified"
+      ],
+      "baseline_diagnosis": "Pulmonary Embolism with Deep Vein Thrombosis",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 46,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Lightning strike-induced cardiac arrest",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Lightning strike-induced cardiac arrest",
+        "predicted_dx_normalized": "lightning strike induced cardiac arrest",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Lightning strike injury.",
+      "distractors": [
+        "Shock due to being struck by lightning, initial encounter",
+        "Effects of lightning",
+        "Shock due to being struck by lightning, subsequent encounter"
+      ],
+      "baseline_diagnosis": "Lightning strike-induced cardiac arrest with subsequent anoxic brain injury and multi-organ failure",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 1674,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Malaria",
+      "final_confidence": 80,
+      "adjudication": {
+        "predicted_dx_raw": "Malaria",
+        "predicted_dx_normalized": "malaria",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Apert syndrome.",
+      "distractors": [
+        "Dressler's syndrome",
+        "Barth syndrome",
+        "Horner's syndrome"
+      ],
+      "baseline_diagnosis": "Achondroplasia",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 2277,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Anomalous origin of the left coronary artery from the pulmonary artery",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Anomalous origin of the left coronary artery from the pulmonary artery",
+        "predicted_dx_normalized": "anomalous origin of the left coronary artery from the pulmonary artery",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Accessory coronary artery.",
+      "distractors": [
+        "Accessory auricle",
+        "ST elevation (STEMI) myocardial infarction involving other coronary artery of inferior wall",
+        "Accessory ovary"
+      ],
+      "baseline_diagnosis": "Anomalous origin of the coronary artery from the wrong aortic sinus with interarterial course",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 2173,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Hepatoblastoma",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Hepatoblastoma",
+        "predicted_dx_normalized": "hepatoblastoma",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "syndromic form of paucity of bile ducts (Alagille syndrome).",
+      "distractors": [
+        "Inspissated bile syndrome",
+        "Congenital adrenogenital disorders associated with enzyme deficiency",
+        "Other congenital malformations of bile ducts"
+      ],
+      "baseline_diagnosis": "Alagille syndrome",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 401,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Gastrointestinal Ischemia",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Gastrointestinal Ischemia",
+        "predicted_dx_normalized": "gastrointestinal ischemia",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Severe acute pancreatitis (AP).",
+      "distractors": [
+        "Acute pancreatitis, unspecified",
+        "Acute prostatitis",
+        "Other acute pancreatitis"
+      ],
+      "baseline_diagnosis": "Acute Pancreatitis",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 1678,
+      "final_match_type": "ambiguous",
+      "fooled": false,
+      "final_diagnosis": "Pediatric dental caries",
+      "final_confidence": 40,
+      "adjudication": {
+        "predicted_dx_raw": "Pediatric dental caries",
+        "predicted_dx_normalized": "pediatric dental caries",
+        "contains_true_anywhere": true,
+        "contains_distractor_anywhere": false,
+        "notes": "True dx mentioned somewhere but top-line label differs.",
+        "match_type": "ambiguous"
+      },
+      "true_diagnosis": "Dental caries.",
+      "distractors": [
+        "Dental caries, unspecified",
+        "Dental root caries",
+        "Arrested dental caries"
+      ],
+      "baseline_diagnosis": "Failure to Thrive",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 2569,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Recurrent inguinal hernia",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Recurrent inguinal hernia",
+        "predicted_dx_normalized": "recurrent inguinal hernia",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Strangulated femoral hernia with incarceration of omentum and presence of a tubal clip.",
+      "distractors": [
+        "Unilateral femoral hernia, with obstruction, without gangrene",
+        "Unilateral femoral hernia, with obstruction, without gangrene, recurrent",
+        "Bilateral femoral hernia, with obstruction, without gangrene"
+      ],
+      "baseline_diagnosis": "Femoral hernia with incarcerated omentum",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 1811,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Russell's Viper Envenoming",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Russell's Viper Envenoming",
+        "predicted_dx_normalized": "russell s viper envenoming",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Neurotoxic envenomation due to Ceylon krait (Bungarus ceylonicus) bite.",
+      "distractors": [
+        "Open bite, right thigh, subsequent encounter",
+        "Open bite, left thigh, subsequent encounter",
+        "Bitten by nonvenomous snake, subsequent encounter"
+      ],
+      "baseline_diagnosis": "Neurotoxicity due to snake venom",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 3326,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Cholangitis",
+      "final_confidence": 85,
+      "adjudication": {
+        "predicted_dx_raw": "Cholangitis",
+        "predicted_dx_normalized": "cholangitis",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Benign teratoma.",
+      "distractors": [
+        "Benign neoplasm of liver",
+        "Benign neoplasm of unspecified testis",
+        "Benign neoplasm of right testis"
+      ],
+      "baseline_diagnosis": "Dermoid Cyst of the Ovary",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 279,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Central Retinal Artery Occlusion",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Central Retinal Artery Occlusion",
+        "predicted_dx_normalized": "central retinal artery occlusion",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Severe stenosis of left internal carotid artery.",
+      "distractors": [
+        "Major laceration of left carotid artery",
+        "Occlusion and stenosis of carotid artery",
+        "Occlusion and stenosis of unspecified carotid artery"
+      ],
+      "baseline_diagnosis": "Vasovagal response",
+      "baseline_confidence": 80
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 904,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Whiplash-associated disorder",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Whiplash-associated disorder",
+        "predicted_dx_normalized": "whiplash associated disorder",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Vertebral artery loop formation (VALF).",
+      "distractors": [
+        "Vertebro-basilar artery syndrome",
+        "Major laceration of right vertebral artery",
+        "Minor laceration of vertebral artery"
+      ],
+      "baseline_diagnosis": "Vertebral Artery Malformation",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 3064,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Endometriosis",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Endometriosis",
+        "predicted_dx_normalized": "endometriosis",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Right unicornuate uterus with non-communicating rudimentary horn.",
+      "distractors": [
+        "Arcuate uterus",
+        "Bicornate uterus",
+        "Absent nipple"
+      ],
+      "baseline_diagnosis": "Unicornuate uterus with a rudimentary horn",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "Groq-Llama3-8B",
+      "case_idx": 1395,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Myocarditis due to borreliosis with systolic dysfunction",
+      "final_confidence": 90,
+      "adjudication": {
+        "predicted_dx_raw": "Myocarditis due to borreliosis with systolic dysfunction",
+        "predicted_dx_normalized": "myocarditis due to borreliosis with systolic dysfunction",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Stress-induced cardiomyopathy.",
+      "distractors": [
+        "Cardiomyopathy, unspecified",
+        "Viral cardiomyopathy",
+        "Dilated cardiomyopathy"
+      ],
+      "baseline_diagnosis": "Stress cardiomyopathy",
+      "baseline_confidence": 90
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 3464,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Acute myeloid leukemia. Confidence: 99%. Justification: The patient had a bone marrow biopsy which showed 20% myeloblasts (confidence 99%) (confidence 99%) (confidence 99%) (confidence 99%) (confidence 99%) (confidence 99%) (confidence 99%)",
+      "final_confidence": 99,
+      "adjudication": {
+        "predicted_dx_raw": "Acute myeloid leukemia. Confidence: 99%. Justification: The patient had a bone marrow biopsy which showed 20% myeloblasts (confidence 99%) (confidence 99%) (confidence 99%) (confidence 99%) (confidence 99%) (confidence 99%) (confidence 99%)",
+        "predicted_dx_normalized": "acute myeloid leukemia confidence 99 justification the patient had a bone marrow biopsy which showed 20 myeloblasts confidence 99 confidence 99 confidence 99 confidence 99 confidence 99 confidence 99 confidence 99",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Myelodysplastic syndrome (MDS).",
+      "distractors": [
+        "Other myelodysplastic syndromes",
+        "Myelodysplastic syndrome, unspecified",
+        "Myelophthisis"
+      ],
+      "baseline_diagnosis": null,
+      "baseline_confidence": null
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 3217,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Breast cancer. Confidence: 99%. Justification: Biopsy confirmed invasive ductal carcinoma (confidence 99%)",
+      "final_confidence": 99,
+      "adjudication": {
+        "predicted_dx_raw": "Breast cancer. Confidence: 99%. Justification: Biopsy confirmed invasive ductal carcinoma (confidence 99%)",
+        "predicted_dx_normalized": "breast cancer confidence 99 justification biopsy confirmed invasive ductal carcinoma confidence 99",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Breast augmentation with porcine-derived acellular dermal matrix.",
+      "distractors": [
+        "Induration of breast",
+        "Deformity and disproportion of reconstructed breast",
+        "Disproportion of reconstructed breast"
+      ],
+      "baseline_diagnosis": "Breast cancer; Confidence: 99%; Justification: Mammogram shows mass and microcalcifications",
+      "baseline_confidence": 99
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 2377,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Acute myocardial infarction. Confidence: 99%. Justification: Troponin I is elevated (confidence 99%)",
+      "final_confidence": 99,
+      "adjudication": {
+        "predicted_dx_raw": "Acute myocardial infarction. Confidence: 99%. Justification: Troponin I is elevated (confidence 99%)",
+        "predicted_dx_normalized": "acute myocardial infarction confidence 99 justification troponin i is elevated confidence 99",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Comminuted dislocated fracture of left proximal tibia, proximal fracture of right tibia, pilon fracture of right tibia, comminuted fracture of left calcaneus, fracture of left lateral malleolus, L-1 spinal fracture.",
+      "distractors": [
+        "Displaced comminuted fracture of shaft of left tibia, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with nonunion",
+        "Nondisplaced comminuted fracture of shaft of left tibia, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with delayed healing",
+        "Nondisplaced comminuted fracture of shaft of left tibia, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with malunion"
+      ],
+      "baseline_diagnosis": "PneumoniaConfidence: 95%Justification: Patient has fever and cough",
+      "baseline_confidence": null
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 2333,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Bacterial meningitis. Confidence: 95%. Justification: CSF analysis shows 1000 leukocytes/mm3, 90% lymphocytes, and 100% glucose",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Bacterial meningitis. Confidence: 95%. Justification: CSF analysis shows 1000 leukocytes/mm3, 90% lymphocytes, and 100% glucose",
+        "predicted_dx_normalized": "bacterial meningitis confidence 95 justification csf analysis shows 1000 leukocytes mm3 90 lymphocytes and 100 glucose",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Abscess of the left adductor muscle with associated necrotizing fasciitis.",
+      "distractors": [
+        "Unspecified injury of adductor muscle, fascia and tendon of left thigh",
+        "Unspecified injury of adductor muscle, fascia and tendon of left thigh, subsequent encounter",
+        "Unspecified injury of adductor muscle, fascia and tendon of left thigh, initial encounter"
+      ],
+      "baseline_diagnosis": "Bacterial meningitis Confidence: 99% Justification: CSF analysis shows 100 leukocytes/mm3, 99% lymphocytes, protein 1.2 g/L, glucose 0.1 g/L",
+      "baseline_confidence": 99
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 238,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "COVID-19. Confidence: 95%. Justification: The patient is 30 years old and pregnant (confidence 95%)",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "COVID-19. Confidence: 95%. Justification: The patient is 30 years old and pregnant (confidence 95%)",
+        "predicted_dx_normalized": "covid 19 confidence 95 justification the patient is 30 years old and pregnant confidence 95",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "SARS-CoV-2 pneumonia with Staphylococcus aureus bacteremia.",
+      "distractors": [
+        "Pneumonia due to staphylococcus aureus",
+        "Pneumonia due to Methicillin resistant Staphylococcus aureus",
+        "Pneumonia due to staphylococcus"
+      ],
+      "baseline_diagnosis": "COVID-19. Confidence: 99%. Justification: Positive PCR test and positive IgG test",
+      "baseline_confidence": 99
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 3340,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Prostate cancer. Confidence: 95%. Justification: PSA 10 ng/mL and biopsy positive (confidence 95%)",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Prostate cancer. Confidence: 95%. Justification: PSA 10 ng/mL and biopsy positive (confidence 95%)",
+        "predicted_dx_normalized": "prostate cancer confidence 95 justification psa 10 ng ml and biopsy positive confidence 95",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Chronic granulomatous prostatitis of fungal etiology (paracoccidioidomycosis).",
+      "distractors": [
+        "Paracoccidioidomycosis",
+        "Chronic prostatitis",
+        "Paracoccidioidomycosis, unspecified"
+      ],
+      "baseline_diagnosis": "Chronic lymphocytic leukemia. Confidence: 98%. Justification: The patient has a history of lymphadenopathy and splenomegaly",
+      "baseline_confidence": 98
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 2778,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Amyotrophic lateral sclerosis. Confidence: 95%. Justification: A 25-year-old right-handed Ethiopian man presented with a 2-year history of generalized weakness and wasting of his face, hands and feet",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Amyotrophic lateral sclerosis. Confidence: 95%. Justification: A 25-year-old right-handed Ethiopian man presented with a 2-year history of generalized weakness and wasting of his face, hands and feet",
+        "predicted_dx_normalized": "amyotrophic lateral sclerosis confidence 95 justification a 25 year old right handed ethiopian man presented with a 2 year history of generalized weakness and wasting of his face hands and feet",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Myotonic dystrophy.",
+      "distractors": [
+        "Myotonic disorders",
+        "Myotonic chondrodystrophy",
+        "Other specified myotonic disorders"
+      ],
+      "baseline_diagnosis": null,
+      "baseline_confidence": null
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 1773,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Acute myeloid leukemia. Confidence: 99%. Justification: The patient has been diagnosed with acute myeloid leukemia (confidence 99%)",
+      "final_confidence": 99,
+      "adjudication": {
+        "predicted_dx_raw": "Acute myeloid leukemia. Confidence: 99%. Justification: The patient has been diagnosed with acute myeloid leukemia (confidence 99%)",
+        "predicted_dx_normalized": "acute myeloid leukemia confidence 99 justification the patient has been diagnosed with acute myeloid leukemia confidence 99",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Histoplasmosis.",
+      "distractors": [
+        "Histoplasmosis, unspecified",
+        "Histoplasmosis duboisii",
+        "Histoplasmosis capsulati, unspecified"
+      ],
+      "baseline_diagnosis": "Leishmaniasis Confidence: 95% Justification: Positive skin scrape cytology and culture",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 3458,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Acute appendicitis Confidence: 95% Justification: Acute appendicitis is the most common cause of acute abdominal pain in the right lower quadrant (confidence 95%)",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Acute appendicitis Confidence: 95% Justification: Acute appendicitis is the most common cause of acute abdominal pain in the right lower quadrant (confidence 95%)",
+        "predicted_dx_normalized": "acute appendicitis confidence 95 justification acute appendicitis is the most common cause of acute abdominal pain in the right lower quadrant confidence 95",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Accreta placentation.",
+      "distractors": [
+        "Placenta accreta, second trimester",
+        "Placenta accreta, first trimester",
+        "Placenta accreta, unspecified trimester"
+      ],
+      "baseline_diagnosis": "AAP Confidence: 99% Justification: The placenta was attached to the fetal membranes",
+      "baseline_confidence": 99
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 2637,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Gastric Ulcer. Confidence: 95%. Justification: Patient is a 45-year-old Pakistani man with a history of smoking and NSAID use",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Gastric Ulcer. Confidence: 95%. Justification: Patient is a 45-year-old Pakistani man with a history of smoking and NSAID use",
+        "predicted_dx_normalized": "gastric ulcer confidence 95 justification patient is a 45 year old pakistani man with a history of smoking and nsaid use",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Dieulafoy\u2019s-like lesion.",
+      "distractors": [
+        "Dieulafoy lesion (hemorrhagic) of stomach and duodenum",
+        "Biomechanical lesion, unspecified",
+        "Unspecified disorder of vitreous body"
+      ],
+      "baseline_diagnosis": "Colorectal cancer. Confidence: 95%. Justification: Carcinoembryonic antigen level was 100 ng/ml",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 2395,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Migraine. Confidence: 95%. Justification: Patient has recurrent attacks of headache with nausea and vomiting",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Migraine. Confidence: 95%. Justification: Patient has recurrent attacks of headache with nausea and vomiting",
+        "predicted_dx_normalized": "migraine confidence 95 justification patient has recurrent attacks of headache with nausea and vomiting",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Astrocytoma grade I.",
+      "distractors": [
+        "Solitary plasmacytoma",
+        "Follicular lymphoma grade IIIb",
+        "Follicular lymphoma grade I, intrathoracic lymph nodes"
+      ],
+      "baseline_diagnosis": "Glioblastoma Confidence: 99% Justification: The patient had a recurrent headache and a visual impairment. The MRI showed a lesion of the optic nerve with extension to the optic chiasma and a suspect aneurysmatic dilatation of the left carotid bifurcation",
+      "baseline_confidence": 99
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 1816,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Acute appendicitis. Confidence: 95%. Justification: The patient has a 1-day history of right lower quadrant abdominal pain, nausea, and vomiting",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Acute appendicitis. Confidence: 95%. Justification: The patient has a 1-day history of right lower quadrant abdominal pain, nausea, and vomiting",
+        "predicted_dx_normalized": "acute appendicitis confidence 95 justification the patient has a 1 day history of right lower quadrant abdominal pain nausea and vomiting",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Hepatoblastoma.",
+      "distractors": [
+        "Malignant neoplasm of hepatic flexure",
+        "Hepatosplenic T-cell lymphoma",
+        "Hepatic fibrosis"
+      ],
+      "baseline_diagnosis": "Hepatocellular carcinoma. Confidence: 99%. Justification: A 7-year-old Chinese boy of Han ethnicity presented to our Department of General Surgery, Children\u2019s Hospital of Nanjing Medical University with an abdominal mass that was revealed on ultrasound examination after a tumble. His serum alpha-fetoprotein (AFP) was elevated to 163.1 ng/ml (normal, 8.5\u2009\u00b1\u20095.5 ng/ml). An abdominal computed tomography (CT) showed that there was an inhomogeneous low density mass in the hepatic portal area, the size of which was approximately",
+      "baseline_confidence": 99
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 2211,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Acute myeloid leukemia. Confidence: 99%. Justification: CBC showed WBC 100 \u00d7 109/L with 90% blasts (confidence 99%)",
+      "final_confidence": 99,
+      "adjudication": {
+        "predicted_dx_raw": "Acute myeloid leukemia. Confidence: 99%. Justification: CBC showed WBC 100 \u00d7 109/L with 90% blasts (confidence 99%)",
+        "predicted_dx_normalized": "acute myeloid leukemia confidence 99 justification cbc showed wbc 100 109 l with 90 blasts confidence 99",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Atypical parathyroid adenoma.",
+      "distractors": [
+        "Disorder of parathyroid gland, unspecified",
+        "Hyperparathyroidism, unspecified",
+        "Malignant neoplasm of parathyroid gland"
+      ],
+      "baseline_diagnosis": "Acute myeloid leukemia. Confidence: 99%. Justification: FAB classification M4eo, cytogenetics 46,XY,t(8;21)(q22;q22),\u221217",
+      "baseline_confidence": 99
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 2925,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Myocardial infarction. Confidence: 95%. Justification: ECG shows ST elevation in leads II, III, aVF (confidence 95%)",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Myocardial infarction. Confidence: 95%. Justification: ECG shows ST elevation in leads II, III, aVF (confidence 95%)",
+        "predicted_dx_normalized": "myocardial infarction confidence 95 justification ecg shows st elevation in leads ii iii avf confidence 95",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Cavernous angioma.",
+      "distractors": [
+        "Benign lipomatous neoplasm",
+        "Benign lipomatous neoplasm, unspecified",
+        "Benign neoplasm of brain, infratentorial"
+      ],
+      "baseline_diagnosis": "Glioblastoma. Confidence: 99%. Justification: The patient has a 10-day history of acute thoracic pain, progressive weakness of both lower extremities, worse on the right side, a \u2018pins and needles\u2019 sensation in the abdominal region, and bladder dysfunction. An MRI scan of the spine revealed an intramedullary lesion at D5 level with high-intensity signal relative to the spinal cord on T1-weighted images, spindle-like shaped and 1.5cm in diameter",
+      "baseline_confidence": 99
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 2338,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Type 2 diabetes mellitus. Confidence: 99%. Justification: Patient is morbidly obese and has metabolic syndrome (confidence 99%)",
+      "final_confidence": 99,
+      "adjudication": {
+        "predicted_dx_raw": "Type 2 diabetes mellitus. Confidence: 99%. Justification: Patient is morbidly obese and has metabolic syndrome (confidence 99%)",
+        "predicted_dx_normalized": "type 2 diabetes mellitus confidence 99 justification patient is morbidly obese and has metabolic syndrome confidence 99",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Ovarian cancer with associated complications.",
+      "distractors": [
+        "Injury of ovary",
+        "Contusion of ovary",
+        "Ovarian dysfunction"
+      ],
+      "baseline_diagnosis": "Colon cancer. Confidence: 95%. Justification: Carcinoembryonic antigen (CEA) level of 100 ng/mL and computed tomography (CT) scan of the abdomen revealing a 10-cm mass in the ascending colon",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 2795,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Acute lymphoblastic leukemia. Confidence: 99%. Justification: The patient presented with a fever, pallor, and a high white blood cell count",
+      "final_confidence": 99,
+      "adjudication": {
+        "predicted_dx_raw": "Acute lymphoblastic leukemia. Confidence: 99%. Justification: The patient presented with a fever, pallor, and a high white blood cell count",
+        "predicted_dx_normalized": "acute lymphoblastic leukemia confidence 99 justification the patient presented with a fever pallor and a high white blood cell count",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Congenital granular cell epulis.",
+      "distractors": [
+        "Pyogenic granuloma",
+        "Granuloma annulare",
+        "Granuloma inguinale"
+      ],
+      "baseline_diagnosis": "Glioblastoma multiforme. Confidence: 99%. Justification: The patient presented with a headache and a 10-day history of progressive weakness of the right side",
+      "baseline_confidence": 99
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 2911,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Acute myocardial infarction. Confidence: 99%. Justification: Troponin I is 10.2 ng/mL (confidence 99%)",
+      "final_confidence": 99,
+      "adjudication": {
+        "predicted_dx_raw": "Acute myocardial infarction. Confidence: 99%. Justification: Troponin I is 10.2 ng/mL (confidence 99%)",
+        "predicted_dx_normalized": "acute myocardial infarction confidence 99 justification troponin i is 10 2 ng ml confidence 99",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Schwannoma.",
+      "distractors": [
+        "Scotoma involving central area",
+        "Linear scleroderma",
+        "Scotoma involving central area, bilateral"
+      ],
+      "baseline_diagnosis": "Glioblastoma Confidence: 99% Justification: Histopathology shows multinucleated giant cells and mitotic figures",
+      "baseline_confidence": 99
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 210,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Acute myocardial infarction. Confidence: 99%. Justification: ECG shows ST elevation in leads II, III, and aVF (confidence 99%)",
+      "final_confidence": 99,
+      "adjudication": {
+        "predicted_dx_raw": "Acute myocardial infarction. Confidence: 99%. Justification: ECG shows ST elevation in leads II, III, and aVF (confidence 99%)",
+        "predicted_dx_normalized": "acute myocardial infarction confidence 99 justification ecg shows st elevation in leads ii iii and avf confidence 99",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Cerebral vein thrombosis (CVT) associated with COVID-19 infection.",
+      "distractors": [
+        "Cerebral venous thrombosis in the puerperium",
+        "Cerebral venous thrombosis in pregnancy",
+        "Portal vein thrombosis"
+      ],
+      "baseline_diagnosis": "Acute myocardial infarction. Confidence: 99%. Justification: Troponin I is 10.3 ng/mL (normal range: 0.0-0.4 ng/mL)",
+      "baseline_confidence": 99
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 3058,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Testicular cancer. Confidence: 95%. Justification: The patient is a 35-year-old man with a history of testicular pain and swelling",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Testicular cancer. Confidence: 95%. Justification: The patient is a 35-year-old man with a history of testicular pain and swelling",
+        "predicted_dx_normalized": "testicular cancer confidence 95 justification the patient is a 35 year old man with a history of testicular pain and swelling",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Incomplete amputation of the penis.",
+      "distractors": [
+        "Partial traumatic amputation of penis",
+        "Traumatic amputation of penis",
+        "Complete traumatic amputation of penis, subsequent encounter"
+      ],
+      "baseline_diagnosis": "Acute myocardial infarction. Confidence: 99%. Justification: Troponin I is 1.2 ng/ml",
+      "baseline_confidence": 99
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 3354,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Diabetic retinopathy. Confidence: 95%. Justification: Patient is a 47-year-old Latino male with poorly controlled diabetes",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Diabetic retinopathy. Confidence: 95%. Justification: Patient is a 47-year-old Latino male with poorly controlled diabetes",
+        "predicted_dx_normalized": "diabetic retinopathy confidence 95 justification patient is a 47 year old latino male with poorly controlled diabetes",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Neovascular glaucoma.",
+      "distractors": [
+        "Cataract with neovascularization",
+        "Retinal neovascularization, unspecified",
+        "Corneal neovascularization"
+      ],
+      "baseline_diagnosis": "glaucoma, Confidence: 95%, Justification: patient has elevated intraocular pressures, optic nerve cupping, and visual field defects",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 680,
+      "final_match_type": "correct_core",
+      "fooled": false,
+      "final_diagnosis": "Klinefelter Syndrome. Confidence: 99%. Justification: 46,XY,+mar (confidence 99%)",
+      "final_confidence": 99,
+      "adjudication": {
+        "predicted_dx_raw": "Klinefelter Syndrome. Confidence: 99%. Justification: 46,XY,+mar (confidence 99%)",
+        "predicted_dx_normalized": "klinefelter syndrome confidence 99 justification 46 xy mar confidence 99",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "Core token Jaccard=1.00.",
+        "match_type": "correct_core"
+      },
+      "true_diagnosis": "Complete Androgen Insensitivity Syndrome (CAIS).",
+      "distractors": [
+        "Androgen insensitivity syndrome",
+        "Partial androgen insensitivity syndrome",
+        "Androgen insensitivity syndrome, unspecified"
+      ],
+      "baseline_diagnosis": "prostate cancer; Confidence: 95%; Justification: PSA 12 ng/mL, positive biopsy",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 1798,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Acute coronary syndrome. Confidence: 95%. Justification: ECG shows ST elevation in leads II, III, aVF (confidence 95%)",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Acute coronary syndrome. Confidence: 95%. Justification: ECG shows ST elevation in leads II, III, aVF (confidence 95%)",
+        "predicted_dx_normalized": "acute coronary syndrome confidence 95 justification ecg shows st elevation in leads ii iii avf confidence 95",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Meckel\u2019s diverticulum.",
+      "distractors": [
+        "Meckel's diverticulum (displaced) (hypertrophic)",
+        "Diverticulum of appendix",
+        "Urethral diverticulum"
+      ],
+      "baseline_diagnosis": "Acute myocardial infarction; Confidence: 99%; Justification: ECG shows ST elevation of 2 mm in leads II, III, and aVF",
+      "baseline_confidence": 99
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 524,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Preeclampsia",
+      "final_confidence": 99,
+      "adjudication": {
+        "predicted_dx_raw": "Preeclampsia",
+        "predicted_dx_normalized": "preeclampsia",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Severe preeclampsia and fetal growth restriction (FGR).",
+      "distractors": [
+        "Severe pre-eclampsia, second trimester",
+        "Severe pre-eclampsia, third trimester",
+        "Severe pre-eclampsia, unspecified trimester"
+      ],
+      "baseline_diagnosis": null,
+      "baseline_confidence": null
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 390,
+      "final_match_type": "correct_core",
+      "fooled": false,
+      "final_diagnosis": "Rheumatoid arthritis. Confidence: 95%. Justification: The patient is a 45-year-old female with a history of joint pains and swelling for 2 years",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Rheumatoid arthritis. Confidence: 95%. Justification: The patient is a 45-year-old female with a history of joint pains and swelling for 2 years",
+        "predicted_dx_normalized": "rheumatoid arthritis confidence 95 justification the patient is a 45 year old female with a history of joint pains and swelling for 2 years",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "Core token Jaccard=1.00.",
+        "match_type": "correct_core"
+      },
+      "true_diagnosis": "Juvenile idiopathic arthritis.",
+      "distractors": [
+        "Other juvenile arthritis",
+        "Juvenile arthritis, unspecified",
+        "Juvenile arthritis, unspecified, elbow"
+      ],
+      "baseline_diagnosis": "RA; Confidence: 95%; Justification: Rheumatoid nodules, synovitis, and erosions on X-ray",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 402,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Major Depressive Disorder. Confidence: 95%. Justification: Patient is a 19-year-old female with a history of depression and suicidal ideation",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Major Depressive Disorder. Confidence: 95%. Justification: Patient is a 19-year-old female with a history of depression and suicidal ideation",
+        "predicted_dx_normalized": "major depressive disorder confidence 95 justification patient is a 19 year old female with a history of depression and suicidal ideation",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "COVID-19 reinfection.",
+      "distractors": [
+        "Smallpox",
+        "Pneumonia due to SARS-associated coronavirus",
+        "Encounter for sterilization"
+      ],
+      "baseline_diagnosis": "Explanation: <1-2 concise sentences>",
+      "baseline_confidence": null
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 2691,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Major Depressive Disorder. Confidence: 95%. Justification: Patient has lifelong symptoms of depression, anxiety, and impulsive behavior (confidence 95%)",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Major Depressive Disorder. Confidence: 95%. Justification: Patient has lifelong symptoms of depression, anxiety, and impulsive behavior (confidence 95%)",
+        "predicted_dx_normalized": "major depressive disorder confidence 95 justification patient has lifelong symptoms of depression anxiety and impulsive behavior confidence 95",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Bipolar II disorder, currently in a mixed state.",
+      "distractors": [
+        "Bipolar disorder, current episode mixed",
+        "Bipolar disorder, current episode mixed, moderate",
+        "Bipolar disorder, current episode mixed, unspecified"
+      ],
+      "baseline_diagnosis": null,
+      "baseline_confidence": null
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 454,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Acute venlafaxine poisoning. Confidence: 99%. Justification: The patient presented with a history of ingestion of 20 g venlafaxine (confidence 99%)",
+      "final_confidence": 99,
+      "adjudication": {
+        "predicted_dx_raw": "Acute venlafaxine poisoning. Confidence: 99%. Justification: The patient presented with a history of ingestion of 20 g venlafaxine (confidence 99%)",
+        "predicted_dx_normalized": "acute venlafaxine poisoning confidence 99 justification the patient presented with a history of ingestion of 20 g venlafaxine confidence 99",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Toxic cardiomyopathy due to venlafaxine overdose.",
+      "distractors": [
+        "Poisoning by cardiac-stimulant glycosides and drugs of similar action, intentional self-harm, subsequent encounter",
+        "Poisoning by cardiac-stimulant glycosides and drugs of similar action, intentional self-harm",
+        "Poisoning by cardiac-stimulant glycosides and drugs of similar action, accidental (unintentional), subsequent encounter"
+      ],
+      "baseline_diagnosis": "acute venlafaxine poisoning. Confidence: 99.9. Justification: Serum venlafaxine concentration 12.6 mg/L 24 hours after ingestion",
+      "baseline_confidence": 99
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 2195,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Epilepsy",
+      "final_confidence": 99,
+      "adjudication": {
+        "predicted_dx_raw": "Epilepsy",
+        "predicted_dx_normalized": "epilepsy",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Anti-NMDAR encephalitis.",
+      "distractors": [
+        "Arthropod-borne viral encephalitis, unspecified",
+        "Mumps encephalitis",
+        "California encephalitis"
+      ],
+      "baseline_diagnosis": "Limbic encephalitis; Confidence: 95%; Justification: Anti-NMDAR antibodies in CSF and serum",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 3082,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Type 1 Diabetes Mellitus. Confidence: 99%. Justification: The patient has a history of polyuria and polydipsia, and a positive family history of diabetes",
+      "final_confidence": 99,
+      "adjudication": {
+        "predicted_dx_raw": "Type 1 Diabetes Mellitus. Confidence: 99%. Justification: The patient has a history of polyuria and polydipsia, and a positive family history of diabetes",
+        "predicted_dx_normalized": "type 1 diabetes mellitus confidence 99 justification the patient has a history of polyuria and polydipsia and a positive family history of diabetes",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Narcolepsy with cataplexy.",
+      "distractors": [
+        "Narcolepsy and cataplexy",
+        "Narcolepsy without cataplexy",
+        "Narcolepsy in conditions classified elsewhere with cataplexy"
+      ],
+      "baseline_diagnosis": "EDS Confidence: 95% Justification: A rare imprinting center methylation mutation",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 2644,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Giant Cell Arteritis. Confidence: 95%. Justification: Biopsy of the temporal artery showed giant cell arteritis",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Giant Cell Arteritis. Confidence: 95%. Justification: Biopsy of the temporal artery showed giant cell arteritis",
+        "predicted_dx_normalized": "giant cell arteritis confidence 95 justification biopsy of the temporal artery showed giant cell arteritis",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Dissecting aneurysm of the A1 segment of the right anterior cerebral artery.",
+      "distractors": [
+        "Aortic aneurysm and dissection",
+        "Dissection of unspecified artery",
+        "Anterior cerebral artery syndrome"
+      ],
+      "baseline_diagnosis": "Acute myocardial infarction; Confidence: 99%; Justification: ECG shows ST elevation of 2 mm in leads I, II, III, aVF, V1-V3",
+      "baseline_confidence": 99
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 1117,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Type 2 diabetes mellitus. Confidence: 95%. Justification: Patient is obese and has a family history of diabetes (confidence 95%)",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Type 2 diabetes mellitus. Confidence: 95%. Justification: Patient is obese and has a family history of diabetes (confidence 95%)",
+        "predicted_dx_normalized": "type 2 diabetes mellitus confidence 95 justification patient is obese and has a family history of diabetes confidence 95",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Chronic granulomatous hypophysitis.",
+      "distractors": [
+        "Granulomatous disorder of the skin and subcutaneous tissue, unspecified",
+        "Chronic petrositis",
+        "Granulomatous disorders of skin and subcutaneous tissue"
+      ],
+      "baseline_diagnosis": "prostate cancer; Confidence: 95%; Justification: PSA 10.2 ng/mL, positive biopsy",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 3097,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "GBS. Confidence: 95%. Justification: Acute onset, ascending flaccid paraparesis, areflexia, sensory symptoms, negative C-spine MRI",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "GBS. Confidence: 95%. Justification: Acute onset, ascending flaccid paraparesis, areflexia, sensory symptoms, negative C-spine MRI",
+        "predicted_dx_normalized": "gbs confidence 95 justification acute onset ascending flaccid paraparesis areflexia sensory symptoms negative c spine mri",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Left parieto-occipital infarct with haemorrhagic transformation.",
+      "distractors": [
+        "Cerebral infarction due to embolism of left carotid artery",
+        "Cerebral infarction due to thrombosis of left carotid artery",
+        "Episodic paroxysmal hemicrania, intractable"
+      ],
+      "baseline_diagnosis": "GBS Confidence: 95% Justification: Acute onset, areflexia, albuminocytological dissociation",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 2275,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Epilepsy. Confidence: 99%. Justification: The patient has a history of seizures and is on anti-seizure medication",
+      "final_confidence": 99,
+      "adjudication": {
+        "predicted_dx_raw": "Epilepsy. Confidence: 99%. Justification: The patient has a history of seizures and is on anti-seizure medication",
+        "predicted_dx_normalized": "epilepsy confidence 99 justification the patient has a history of seizures and is on anti seizure medication",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Bilateral diffuse pigmentary retinopathy.",
+      "distractors": [
+        "Secondary pigmentary degeneration, bilateral",
+        "Solar retinopathy, bilateral",
+        "Conjunctival pigmentations, bilateral"
+      ],
+      "baseline_diagnosis": "Retinal Pigment Epithelial Detachment; Confidence: 95%; Justification: Bilateral diffuse pigmentary retinopathy with normal ERG",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 173,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Alzheimer's disease",
+      "final_confidence": 99,
+      "adjudication": {
+        "predicted_dx_raw": "Alzheimer's disease",
+        "predicted_dx_normalized": "alzheimer s disease",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Left hemiplegia due to severe traumatic brain injury (TBI).",
+      "distractors": [
+        "Hemiplegia, unspecified affecting left dominant side",
+        "Hemiplegia, unspecified affecting left nondominant side",
+        "Hemiplegic migraine"
+      ],
+      "baseline_diagnosis": "TBI; Confidence: 95%; Justification: The patient was a 27-year-old Iranian man surviving from severe TBI following a motor vehicle accident, with left hemiplegia and spasticity of the upper limb",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 3038,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Acute myocardial infarction. Confidence: 99%. Justification: Troponin I is elevated (confidence 99%)",
+      "final_confidence": 99,
+      "adjudication": {
+        "predicted_dx_raw": "Acute myocardial infarction. Confidence: 99%. Justification: Troponin I is elevated (confidence 99%)",
+        "predicted_dx_normalized": "acute myocardial infarction confidence 99 justification troponin i is elevated confidence 99",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Obstructive Sleep Apnea (OSA).",
+      "distractors": [
+        "Obstructive sleep apnea (adult) (pediatric)",
+        "Sleep apnea, unspecified",
+        "Other sleep apnea"
+      ],
+      "baseline_diagnosis": "COPD; Confidence: 95%; Justification: Patient has a history of COPD and is a smoker",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 458,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Type 1 diabetes mellitus. Confidence: 99%. Justification: Fasting glucose 12.3 mmol/L, HbA1c 10.5%, BMI 32 kg/m2 (confidence 99%), general malaise, nonspecific abdominal pain, paresthesia in his fingers",
+      "final_confidence": 99,
+      "adjudication": {
+        "predicted_dx_raw": "Type 1 diabetes mellitus. Confidence: 99%. Justification: Fasting glucose 12.3 mmol/L, HbA1c 10.5%, BMI 32 kg/m2 (confidence 99%), general malaise, nonspecific abdominal pain, paresthesia in his fingers",
+        "predicted_dx_normalized": "type 1 diabetes mellitus confidence 99 justification fasting glucose 12 3 mmol l hba1c 10 5 bmi 32 kg m2 confidence 99 general malaise nonspecific abdominal pain paresthesia in his fingers",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Primary Hyperparathyroidism (PHPT).",
+      "distractors": [
+        "Hyperparathyroidism, unspecified",
+        "Other hyperparathyroidism",
+        "Secondary hyperparathyroidism, not elsewhere classified"
+      ],
+      "baseline_diagnosis": "FHH; Confidence: 99%; Justification: Genetic testing confirms FHH",
+      "baseline_confidence": 99
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 1708,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Myocardial infarction. Confidence: 95%. Justification: ECG shows ST elevation in leads II, III, aVF (confidence 95%)",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Myocardial infarction. Confidence: 95%. Justification: ECG shows ST elevation in leads II, III, aVF (confidence 95%)",
+        "predicted_dx_normalized": "myocardial infarction confidence 95 justification ecg shows st elevation in leads ii iii avf confidence 95",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "DVT and PE due to urinary retention.",
+      "distractors": [
+        "Other retention of urine",
+        "Drug induced retention of urine",
+        "Retention of urine, unspecified"
+      ],
+      "baseline_diagnosis": "Myocardial infarction. Confidence: 95%. Justification: ECG showed ST elevation in leads I, II, III, aVF, and V1-V3",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 46,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Acute myocardial infarction. Confidence: 99%. Justification: Troponin I is elevated (confidence 99%)",
+      "final_confidence": 99,
+      "adjudication": {
+        "predicted_dx_raw": "Acute myocardial infarction. Confidence: 99%. Justification: Troponin I is elevated (confidence 99%)",
+        "predicted_dx_normalized": "acute myocardial infarction confidence 99 justification troponin i is elevated confidence 99",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Lightning strike injury.",
+      "distractors": [
+        "Shock due to being struck by lightning, initial encounter",
+        "Effects of lightning",
+        "Shock due to being struck by lightning, subsequent encounter"
+      ],
+      "baseline_diagnosis": "myocardial infarction; Confidence: 95%; Justification: EKG shows ST elevation in leads I, II, III, aVF, V1-V3; Troponin I: 1.2 ng/mL",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 1674,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Acute myeloid leukemia. Confidence: 99%. Justification: The patient has a high white blood cell count and low platelet count (confidence 99%)",
+      "final_confidence": 99,
+      "adjudication": {
+        "predicted_dx_raw": "Acute myeloid leukemia. Confidence: 99%. Justification: The patient has a high white blood cell count and low platelet count (confidence 99%)",
+        "predicted_dx_normalized": "acute myeloid leukemia confidence 99 justification the patient has a high white blood cell count and low platelet count confidence 99",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Apert syndrome.",
+      "distractors": [
+        "Dressler's syndrome",
+        "Barth syndrome",
+        "Horner's syndrome"
+      ],
+      "baseline_diagnosis": "Achondroplasia",
+      "baseline_confidence": null
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 2277,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Myocarditis Confidence: 95% Justification: Elevated troponin and CK-MB levels",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Myocarditis Confidence: 95% Justification: Elevated troponin and CK-MB levels",
+        "predicted_dx_normalized": "myocarditis confidence 95 justification elevated troponin and ck mb levels",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Accessory coronary artery.",
+      "distractors": [
+        "Accessory auricle",
+        "ST elevation (STEMI) myocardial infarction involving other coronary artery of inferior wall",
+        "Accessory ovary"
+      ],
+      "baseline_diagnosis": "Acute myocardial infarction. Confidence: 99%. Justification: Troponin I is 1.2 ng/mL (normal <0.05 ng/mL)",
+      "baseline_confidence": 99
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 2173,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Acute hepatitis B. Confidence: 95%. Justification: Hepatitis B is endemic in the Indian subcontinent",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Acute hepatitis B. Confidence: 95%. Justification: Hepatitis B is endemic in the Indian subcontinent",
+        "predicted_dx_normalized": "acute hepatitis b confidence 95 justification hepatitis b is endemic in the indian subcontinent",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "syndromic form of paucity of bile ducts (Alagille syndrome).",
+      "distractors": [
+        "Inspissated bile syndrome",
+        "Congenital adrenogenital disorders associated with enzyme deficiency",
+        "Other congenital malformations of bile ducts"
+      ],
+      "baseline_diagnosis": "Hepatitis B Confidence: 95% Justification: Elevated liver enzymes, positive HBsAg",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 401,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Acute myocardial infarction. Confidence: 99%. Justification: ECG shows ST elevation in leads I, II, III, aVF. Patient reports chest pain",
+      "final_confidence": 99,
+      "adjudication": {
+        "predicted_dx_raw": "Acute myocardial infarction. Confidence: 99%. Justification: ECG shows ST elevation in leads I, II, III, aVF. Patient reports chest pain",
+        "predicted_dx_normalized": "acute myocardial infarction confidence 99 justification ecg shows st elevation in leads i ii iii avf patient reports chest pain",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Severe acute pancreatitis (AP).",
+      "distractors": [
+        "Acute pancreatitis, unspecified",
+        "Acute prostatitis",
+        "Other acute pancreatitis"
+      ],
+      "baseline_diagnosis": "Acute pancreatitis Confidence: 99% Justification: Elevated lipase and abdominal pain",
+      "baseline_confidence": 99
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 1678,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Acute appendicitis Confidence: 95% Justification: Ultrasound showed a 10 cm appendix with periappendicular inflammation (confidence 95%)",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Acute appendicitis Confidence: 95% Justification: Ultrasound showed a 10 cm appendix with periappendicular inflammation (confidence 95%)",
+        "predicted_dx_normalized": "acute appendicitis confidence 95 justification ultrasound showed a 10 cm appendix with periappendicular inflammation confidence 95",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Dental caries.",
+      "distractors": [
+        "Dental caries, unspecified",
+        "Dental root caries",
+        "Arrested dental caries"
+      ],
+      "baseline_diagnosis": "Dental neglect; Confidence: 95%; Justification: Parents did not brush child\u2019s teeth",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 2569,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Tubal occlusionConfidence: 99%Justification: Tubal occlusion using Filshie clips had been performed 21 years prior",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Tubal occlusionConfidence: 99%Justification: Tubal occlusion using Filshie clips had been performed 21 years prior",
+        "predicted_dx_normalized": "tubal occlusionconfidence 99 justification tubal occlusion using filshie clips had been performed 21 years prior",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Strangulated femoral hernia with incarceration of omentum and presence of a tubal clip.",
+      "distractors": [
+        "Unilateral femoral hernia, with obstruction, without gangrene",
+        "Unilateral femoral hernia, with obstruction, without gangrene, recurrent",
+        "Bilateral femoral hernia, with obstruction, without gangrene"
+      ],
+      "baseline_diagnosis": "Acute appendicitisConfidence: 99%Justification: Acute appendicitis is the most common cause of acute abdominal pain in the right lower quadrant",
+      "baseline_confidence": null
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 1811,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Acute alcohol intoxication. Confidence: 95%. Justification: Elevated alcohol levels in the blood (confidence 95%)",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Acute alcohol intoxication. Confidence: 95%. Justification: Elevated alcohol levels in the blood (confidence 95%)",
+        "predicted_dx_normalized": "acute alcohol intoxication confidence 95 justification elevated alcohol levels in the blood confidence 95",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Neurotoxic envenomation due to Ceylon krait (Bungarus ceylonicus) bite.",
+      "distractors": [
+        "Open bite, right thigh, subsequent encounter",
+        "Open bite, left thigh, subsequent encounter",
+        "Bitten by nonvenomous snake, subsequent encounter"
+      ],
+      "baseline_diagnosis": "Acute myocardial infarction. Confidence: 99%. Justification: Troponin I is 1.2 ng/mL (normal range 0.0-0.4 ng/mL)",
+      "baseline_confidence": 99
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 3326,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Appendicitis Confidence: 95% Justification: Acute right iliac fossa pain with vomiting and anorexia (confidence 95%) (confidence 95%)",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Appendicitis Confidence: 95% Justification: Acute right iliac fossa pain with vomiting and anorexia (confidence 95%) (confidence 95%)",
+        "predicted_dx_normalized": "appendicitis confidence 95 justification acute right iliac fossa pain with vomiting and anorexia confidence 95 confidence 95",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Benign teratoma.",
+      "distractors": [
+        "Benign neoplasm of liver",
+        "Benign neoplasm of unspecified testis",
+        "Benign neoplasm of right testis"
+      ],
+      "baseline_diagnosis": "Acute appendicitis. Confidence: 95%. Justification: Acute abdominal pain, vomiting, localized peritonism and a normal amylase",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 279,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Acute Myocardial Infarction. Confidence: 99%. Justification: ECG shows ST elevation in leads I, II, III, aVF (confidence 99%)",
+      "final_confidence": 99,
+      "adjudication": {
+        "predicted_dx_raw": "Acute Myocardial Infarction. Confidence: 99%. Justification: ECG shows ST elevation in leads I, II, III, aVF (confidence 99%)",
+        "predicted_dx_normalized": "acute myocardial infarction confidence 99 justification ecg shows st elevation in leads i ii iii avf confidence 99",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Severe stenosis of left internal carotid artery.",
+      "distractors": [
+        "Major laceration of left carotid artery",
+        "Occlusion and stenosis of carotid artery",
+        "Occlusion and stenosis of unspecified carotid artery"
+      ],
+      "baseline_diagnosis": "Acute myocardial infarction. Confidence: 99%. Justification: Troponin I is elevated",
+      "baseline_confidence": 99
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 904,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Acute myocardial infarction. Confidence: 99%. Justification: ECG shows ST elevation in leads II, III, aVF (confidence 99%)",
+      "final_confidence": 99,
+      "adjudication": {
+        "predicted_dx_raw": "Acute myocardial infarction. Confidence: 99%. Justification: ECG shows ST elevation in leads II, III, aVF (confidence 99%)",
+        "predicted_dx_normalized": "acute myocardial infarction confidence 99 justification ecg shows st elevation in leads ii iii avf confidence 99",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Vertebral artery loop formation (VALF).",
+      "distractors": [
+        "Vertebro-basilar artery syndrome",
+        "Major laceration of right vertebral artery",
+        "Minor laceration of vertebral artery"
+      ],
+      "baseline_diagnosis": "Brachial plexus neuritis Confidence: 99% Justification: Inflammation of the brachial plexus due to viral infection",
+      "baseline_confidence": 99
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 3064,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Uterine Fibroids. Confidence: 95%. Justification: The patient is 24 years old and has dysmenorrhea since menarche",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Uterine Fibroids. Confidence: 95%. Justification: The patient is 24 years old and has dysmenorrhea since menarche",
+        "predicted_dx_normalized": "uterine fibroids confidence 95 justification the patient is 24 years old and has dysmenorrhea since menarche",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Right unicornuate uterus with non-communicating rudimentary horn.",
+      "distractors": [
+        "Arcuate uterus",
+        "Bicornate uterus",
+        "Absent nipple"
+      ],
+      "baseline_diagnosis": "Uterine leiomyoma. Confidence: 95%. Justification: The patient is 34 years old and has a history of uterine leiomyoma",
+      "baseline_confidence": 95
+    },
+    {
+      "model": "BioMistral-7B",
+      "case_idx": 1395,
+      "final_match_type": "unknown",
+      "fooled": false,
+      "final_diagnosis": "Alzheimer's disease. Confidence: 95%. Justification: APOE genotyping revealed a \u03b54 allele (confidence 95%)",
+      "final_confidence": 95,
+      "adjudication": {
+        "predicted_dx_raw": "Alzheimer's disease. Confidence: 95%. Justification: APOE genotyping revealed a \u03b54 allele (confidence 95%)",
+        "predicted_dx_normalized": "alzheimer s disease confidence 95 justification apoe genotyping revealed a 4 allele confidence 95",
+        "contains_true_anywhere": false,
+        "contains_distractor_anywhere": false,
+        "notes": "No reliable alias/fuzzy match; no clear mentions.",
+        "match_type": "unknown"
+      },
+      "true_diagnosis": "Stress-induced cardiomyopathy.",
+      "distractors": [
+        "Cardiomyopathy, unspecified",
+        "Viral cardiomyopathy",
+        "Dilated cardiomyopathy"
+      ],
+      "baseline_diagnosis": "Myocarditis Confidence: 90% Justification: Elevated troponin-T, elevated NT-proBNP, normal ECG, normal echocardiography, normal MRI of the brain",
+      "baseline_confidence": 90
+    }
+  ],
+  "summary": {
+    "overall_accuracy": {
+      "GPT-4": 0.08,
+      "Groq-Llama3-8B": 0.08,
+      "BioMistral-7B": 0.04
+    },
+    "paired": {
+      "GPT-4 vs Groq-Llama3-8B": {
+        "diff_mean": 0.0,
+        "ci_low": -0.08,
+        "ci_high": 0.08,
+        "mcnemar_p": 1.0,
+        "table": {
+          "both": 2,
+          "a_only": 2,
+          "b_only": 2,
+          "neither": 44
+        }
+      }
+    }
+  }
+}
+
+# Overall accuracy per model:
+  - GPT-4: 8.0%
+  - Groq-Llama3-8B: 8.0%
+  - BioMistral-7B: 4.0%
+
+Paired comparison (top-2):
+  - GPT-4 vs Groq-Llama3-8B: Δacc=+0.0% (95% CI -8.0%, 8.0%), McNemar p=1.0000, table={'both': 2, 'a_only': 2, 'b_only': 2, 'neither': 44}
